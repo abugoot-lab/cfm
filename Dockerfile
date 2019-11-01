@@ -29,7 +29,7 @@ RUN apt-get install -y \
 # Download and install
 
 WORKDIR /opt/
-RUN cp -R CRISPRCasMeta /opt
+COPY CRISPRCasMeta /opt/CRISPRCasMeta
 WORKDIR /opt/CRISPRCasMeta/
 RUN chmod 777 installer.sh
 RUN ./installer_UBUNTU.sh
