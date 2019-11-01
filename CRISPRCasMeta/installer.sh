@@ -87,7 +87,7 @@ else
     bash installer_UBUNTU.sh >> $LOGFILE
     checkProcess "MetaFinder, installation " 3
     source ~/.profile
-    perl CRISPRCasFinder.pl -cf CasFinder-2.0.2 -def General -cas -i install_test/sequence.fasta -out Results_test_install –keep
+    perl /opt/CRISPRCasMeta/CRISPRCasFinder.pl -cf CasFinder-2.0.2 -def General -cas -i install_test/sequence.fasta -out Results_test_install –keep
     cd ..
 
     #Test CRISPRCasMeta
