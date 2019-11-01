@@ -32,8 +32,8 @@ WORKDIR /opt/
 COPY CRISPRCasMeta /opt/CRISPRCasMeta
 WORKDIR /opt/CRISPRCasMeta/
 RUN chmod 777 installer.sh
+COPY CRISPRCasFinder.pl /opt/CRISPRCasMeta
+ENV PATH="/opt/CRISPRCasMeta:${PATH}"
 RUN ./installer.sh
 
-#COPY CRISPRCasFinder_modified.pl /opt/CRISPRCasFinder/
 WORKDIR /opt/CRISPRCasMeta/
-#ENV PATH="/opt/CRISPRCasFinder/bin:${PATH}"
