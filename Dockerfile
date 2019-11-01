@@ -36,4 +36,5 @@ COPY CRISPRCasFinder.pl /opt/CRISPRCasMeta/
 ENV PATH="/opt/CRISPRCasMeta:${PATH}"
 RUN ./installer.sh
 
+RUN echo "Complete 2"
 WORKDIR /opt/CRISPRCasMeta/
