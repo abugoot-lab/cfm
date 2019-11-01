@@ -1,0 +1,5831 @@
+{
+ "Command": "python CRISPRCasMeta.py -i /home/nicolas/Documents/CRISPRCasMeta_1.3.2/DataTest/B2F01_1000.fasta.gz -o /home/nicolas/Documents/CRISPRCasMeta_1.3.2/Test_Output/ -m /home/nicolas/Documents/CRISPRCasMeta_1.3.2/minced-0.3.0/minced --ccm /home/nicolas/Documents/CRISPRCasMeta_1.3.2/MetaFinder/ --mis -1 --mr 23 --xr 55 --pm 0.6 --px 2.5 -s 60 --md 20 -t 33 --fl 100 --cpum 1",
+ "Date": "18/9/2018_17:32:24",
+ "Sequences": [
+  {
+   "AT": 53.33054932299,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_5_length_141283_cov_6.65054",
+   "Length": 141283,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 54.2805876232067,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_9_length_122051_cov_7.72626",
+   "Length": 122051,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 37.3978511315378,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 94.3396226415094,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "TGCCCCAACTTGTTGTAAGACAGCGCGCCAACAATCGCGAGCAACAGCACAGG",
+     "DR_Length": 53,
+     "End": 17845,
+     "Evidence_Level": 1,
+     "Name": "NODE_24_length_90187_cov_5.72896_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 39,
+       "End": 17687,
+       "Leader": 0,
+       "Sequence": "GATTCGTTCGGTGACCTGGCGCGAAACTTCCTCCGCCGTGGCGCCAGGCCACAGCGTGCGAATGACCATGGCCTTGAAGGTGAAGGGTGGATCTTCGCTT",
+       "Start": 17588,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 17740,
+       "Sequence": "TGCCCCAACTTGTTGTAAGACAGCGCGCCAACAATCGCGAGCAACAGCACAGG",
+       "Start": 17688,
+       "Type": "DR"
+      },
+      {
+       "End": 17792,
+       "Sequence": "CCACAGCGTGCGAATGACCATGGCCTTGAAGGTGAAGGGTGGATCTTCGCTC",
+       "Start": 17741,
+       "Type": "Spacer"
+      },
+      {
+       "End": 17845,
+       "Sequence": "TGCCCCAACTTGTTGTAAGACAGCGCGCCAACAATCGCGAGCAACAGCATCAG",
+       "Start": 17793,
+       "Type": "DR"
+      },
+      {
+       "AT": 39,
+       "End": 17945,
+       "Leader": 0,
+       "Sequence": "GAACAGGACGATCTGGCGATTGCGCAACGCCCAGGCGGAAAGATTGAAACCCATCGGGGATTACTCCTTGCCCGCCAGACTGACGACGCGGTTGGAGCGG",
+       "Start": 17846,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 17688
+    },
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 96.1538461538462,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "GGCATGACCCTGACACCCCAGGGCCA",
+     "DR_Length": 26,
+     "End": 51971,
+     "Evidence_Level": 1,
+     "Name": "NODE_24_length_90187_cov_5.72896_2",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 37,
+       "End": 51865,
+       "Leader": 0,
+       "Sequence": "CGCGGCCCAGGCGGTGTTCATTTCCCAGTCGACCCTGACCCTCGCGATCCAGCAGTTGGAACAGGAAATCGGCGTCAACCCGTTCAACCGCCACGCCAAC",
+       "Start": 51766,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 51891,
+       "Sequence": "GGCATGACCCTGACACCCCAGGGCCA",
+       "Start": 51866,
+       "Type": "DR"
+      },
+      {
+       "End": 51945,
+       "Sequence": "CCAAATCCCGCGCCCGGCCCCCCTGCACCCCCCCACCGCCCACACACCGCCAAG",
+       "Start": 51892,
+       "Type": "Spacer"
+      },
+      {
+       "End": 51971,
+       "Sequence": "GGCATGACCCTGACACACCAGGGCCA",
+       "Start": 51946,
+       "Type": "DR"
+      },
+      {
+       "AT": 33,
+       "End": 52071,
+       "Leader": 0,
+       "Sequence": "TCAATTCCTGCGCCAGGCCCACCTGATCCTCGCCACCGTCGACAACGCCAAGCGCAGCCTGCAGCAGAGCACCGACCAGGTCGCCGGGCAACTGACCGTC",
+       "Start": 51972,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 51866
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_24_length_90187_cov_5.72896",
+   "Length": 90187,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 52.9851705561334,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 97.2972972972973,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "CGAAGGTCGTCGGTTCAAATCCGGCTCCCGCAACCAA",
+     "DR_Length": 37,
+     "End": 34523,
+     "Evidence_Level": 1,
+     "Name": "NODE_29_length_85573_cov_8.4861_1",
+     "Potential_Orientation": "-",
+     "Regions": [
+      {
+       "AT": 48,
+       "End": 34390,
+       "Leader": 0,
+       "Sequence": "GATAGAAACTAAGCTTGCGATAGTCAAACCAGGACTATATAATGTGCGTCGCTTACGGACGCGGGATGGAGCAGCCTGGTAGCTCGTCGGGCTCATAACC",
+       "Start": 34291,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 34427,
+       "Sequence": "CGAAGGTCGTCGGTTCAAATCCGGCTCCCGCAACCAA",
+       "Start": 34391,
+       "Type": "DR"
+      },
+      {
+       "End": 34486,
+       "Sequence": "TTCGTACGGTGAAGTGAATATAAAGAAAATGCCCAAGGGCTCCTCTTTATAAACCCGGG",
+       "Start": 34428,
+       "Type": "Spacer"
+      },
+      {
+       "End": 34523,
+       "Sequence": "CGAAGGGCGTCGGTTCAAATCCGGCTCCCGCAACCAA",
+       "Start": 34487,
+       "Type": "DR"
+      },
+      {
+       "AT": 64,
+       "End": 34623,
+       "Leader": 1,
+       "Sequence": "CTTCCTCACTGAATAAAGTTTTTTAAGACTTTATGTTCAAGTAAGTAAGTTCACCGTAAATTGCTGAATGAAGCAAAAGTGTGGCCCAGGTCAAGCATTT",
+       "Start": 34524,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 34391
+    },
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 97.2222222222222,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "TACATAAGCGACCAGTTGGCCAGGACCGTGATAAGT",
+     "DR_Length": 36,
+     "End": 48076,
+     "Evidence_Level": 1,
+     "Name": "NODE_29_length_85573_cov_8.4861_2",
+     "Potential_Orientation": "+",
+     "Regions": [
+      {
+       "AT": 56,
+       "End": 47977,
+       "Leader": 1,
+       "Sequence": "AGGCTGCAATACCATAAGGCGCCAAAGCTTGAATGATCACCTGTTCAATTAATGTGACCAACTCGCGCACACCCAGCTTACGTCTTTTAATATCCAACAA",
+       "Start": 47878,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 48013,
+       "Sequence": "TACATAAGCGACCAGTTGGCCAGGACCGTGATAAGT",
+       "Start": 47978,
+       "Type": "DR"
+      },
+      {
+       "End": 48040,
+       "Sequence": "CACCTGACCGCCTCTGTCTACTTGTAG",
+       "Start": 48014,
+       "Type": "Spacer"
+      },
+      {
+       "End": 48076,
+       "Sequence": "TACATAAGCGACCAGCTGGCCAGGACCGTGATAAGT",
+       "Start": 48041,
+       "Type": "DR"
+      },
+      {
+       "AT": 47,
+       "End": 48176,
+       "Leader": 0,
+       "Sequence": "GACCTGACCACCTCTGTCTACTTGTACCACAGGGATATCACCTGGCATCAGCAGATGTTCTGCTTTACCGGCCTGACCCTGAGTAAACACCGGGTCATGT",
+       "Start": 48077,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 47978
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_29_length_85573_cov_8.4861",
+   "Length": 85573,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 41.699835812727,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_37_length_80396_cov_25.1087",
+   "Length": 80396,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 39.3782044574657,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_44_length_76456_cov_15.6591",
+   "Length": 76456,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 53.0587842722874,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_49_length_71924_cov_11.0762",
+   "Length": 71924,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 36.9892597799777,
+   "Cas": [
+    {
+     "End": 9156,
+     "Genes": [
+      {
+       "End": 9156,
+       "Orientation": "+",
+       "Start": 7819,
+       "Sub_type": "Cas3_0_I"
+      }
+     ],
+     "Start": 7819,
+     "Type": "General-Class1"
+    }
+   ],
+   "CrisprCasMinimalDistance": 53814,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 96.875,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "TTTTTTATTCAGGCAACTGCAATCAAACGCCG",
+     "DR_Length": 32,
+     "End": 63062,
+     "Evidence_Level": 1,
+     "Name": "NODE_54_length_68993_cov_6.17665_1",
+     "Potential_Orientation": "-",
+     "Regions": [
+      {
+       "AT": 35,
+       "End": 62969,
+       "Leader": 0,
+       "Sequence": "TCCGTGCCGGCTTCGCTCGGGTGATCGCCGACTGAGGCTCCGGAGCCTCTGCAATGGGGGCGGTGTAATGGCCATAAAAAAACCCGGCGGATAGCCGGGG",
+       "Start": 62870,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 63001,
+       "Sequence": "TTTTTTATTCAGGCAACTGCAATCAAACGCCG",
+       "Start": 62970,
+       "Type": "DR"
+      },
+      {
+       "End": 63030,
+       "Sequence": "GAGACCAAAAACCCGGCGGATAGCCGGGT",
+       "Start": 63002,
+       "Type": "Spacer"
+      },
+      {
+       "End": 63062,
+       "Sequence": "TTTTTTATTCAGGCAACTGCAATCAAGCGCCG",
+       "Start": 63031,
+       "Type": "DR"
+      },
+      {
+       "AT": 39,
+       "End": 63162,
+       "Leader": 1,
+       "Sequence": "TAAACCGGCAGCTTGGCGCAAATGGCCTTGACCTTCTCGCGAACGCCGTCGATCACGGCTTCGTTGTTCAGGTCGGCCAGGATGTCGCAGATCCAGCCCG",
+       "Start": 63063,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 62970
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_54_length_68993_cov_6.17665",
+   "Length": 68993,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 40.7225837634427,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_69_length_57931_cov_16.04",
+   "Length": 57931,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 56.9763699889665,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_125_length_43504_cov_7.27429",
+   "Length": 43504,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 41.3839389030317,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_128_length_43210_cov_23.4949",
+   "Length": 43210,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 53.6201592259458,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_131_length_42581_cov_7.73586",
+   "Length": 42581,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 46.9599383284013,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_141_length_40213_cov_7.50599",
+   "Length": 40213,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 38.5046147464482,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_156_length_38572_cov_17.2114",
+   "Length": 38572,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 71.6362688900469,
+   "Cas": [
+    {
+     "End": 23202,
+     "Genes": [
+      {
+       "End": 23202,
+       "Orientation": "+",
+       "Start": 21538,
+       "Sub_type": "Cas3_0_I"
+      }
+     ],
+     "Start": 21538,
+     "Type": "General-Class1"
+    }
+   ],
+   "CrisprCasMinimalDistance": 33,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 0,
+     "Conservation_Spacers": 0,
+     "DR_Consensus": "CRT results",
+     "DR_Length": 27,
+     "End": 23169,
+     "Evidence_Level": 1,
+     "Name": "NODE_158_length_38380_cov_20.8707_crispr_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "End": 22879,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": 22879,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 22906,
+       "Sequence": "GGAAGATCTGGAGATAGAAACTCTAGA",
+       "Start": 22879,
+       "Type": "DR"
+      },
+      {
+       "End": 22957,
+       "Sequence": "GGTGGACGTGGTGGAAGATTTGGTTCTAAAGGCGGAGATTCAAGAGGTGGA",
+       "Start": 22906,
+       "Type": "Spacer"
+      },
+      {
+       "End": 22984,
+       "Sequence": "AGACCATCAGGAGATAGAAACTCAAGA",
+       "Start": 22957,
+       "Type": "DR"
+      },
+      {
+       "End": 23035,
+       "Sequence": "GGTCCAAGACCAAGTGGTGATAGACCTTCTGGTGACAGACCAAGAGGAGAT",
+       "Start": 22984,
+       "Type": "Spacer"
+      },
+      {
+       "End": 23062,
+       "Sequence": "AGACCTTCAGGAGATAGAGCTCCAAGA",
+       "Start": 23035,
+       "Type": "DR"
+      },
+      {
+       "End": 23089,
+       "Sequence": "CCATCTGGTGATAGACCAAGAGGTGAT",
+       "Start": 23062,
+       "Type": "Spacer"
+      },
+      {
+       "End": 23116,
+       "Sequence": "AGACCATCAGGAGATAGAGCTCCAAGA",
+       "Start": 23089,
+       "Type": "DR"
+      },
+      {
+       "End": 23143,
+       "Sequence": "CCATCAGGAGACAGACCAAGAGGTGAT",
+       "Start": 23116,
+       "Type": "Spacer"
+      },
+      {
+       "End": 23170,
+       "Sequence": "AGACCATCAGGAGATAGAGCTCCAAGA",
+       "Start": 23143,
+       "Type": "DR"
+      },
+      {
+       "End": 23169,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": 23169,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "CRT results",
+     "Spacers": 4,
+     "Start": 22879
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_158_length_38380_cov_20.8707",
+   "Length": 38380,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 66.6684480547242,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_162_length_37424_cov_6.73759",
+   "Length": 37424,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 52.6121166624962,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 95.6521739130435,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "GCTTGTTTTAATAGCTTCAAATC",
+     "DR_Length": 23,
+     "End": 12590,
+     "Evidence_Level": 1,
+     "Name": "NODE_172_length_35967_cov_8.1702_1",
+     "Potential_Orientation": "-",
+     "Regions": [
+      {
+       "AT": 53,
+       "End": 12500,
+       "Leader": 0,
+       "Sequence": "GTGAAAAAAACACTCTAAGGCAAAACCGGCTGGAATACTGTCGGACAGCCGACAATCTCAGCCTTATCAGCCTGACTCTTAATCGATCATGACTTCTGCG",
+       "Start": 12401,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 12523,
+       "Sequence": "GCTTGTTTTAATAGCTTCAAATC",
+       "Start": 12501,
+       "Type": "DR"
+      },
+      {
+       "End": 12567,
+       "Sequence": "CAGCACTTCAATTTCGGCATAGTTAATGATCCGGGACCTCCGCC",
+       "Start": 12524,
+       "Type": "Spacer"
+      },
+      {
+       "End": 12590,
+       "Sequence": "GCTTGTTTTAACAGCTTCAAATC",
+       "Start": 12568,
+       "Type": "DR"
+      },
+      {
+       "AT": 57,
+       "End": 12690,
+       "Leader": 1,
+       "Sequence": "TAATACCTCAATTTCGCCATAACTGGTTCGGACCACACCATTTGCTACCAGTTGCTGGAGTAACTGATTAATAGTCTGGCGAGATAACGACAATAACTGG",
+       "Start": 12591,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 12501
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_172_length_35967_cov_8.1702",
+   "Length": 35967,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 52.815059635005,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "TATTCGCGCCATCCGTGGCGCTCCCCCTGACGGGCCA",
+     "DR_Length": 37,
+     "End": 13101,
+     "Evidence_Level": 1,
+     "Name": "NODE_180_length_34795_cov_10.3379_1",
+     "Potential_Orientation": "-",
+     "Regions": [
+      {
+       "AT": 53,
+       "End": 12992,
+       "Leader": 0,
+       "Sequence": "TATATCTACATCTGCTACTTCGGTTTACGTAGTCGCAAAGTGACAAGTTAAGGCGAAAGCCGGGGCAAGGTTTAGTTTTCCCGGTTGGCCTTGCCCATTT",
+       "Start": 12893,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 13029,
+       "Sequence": "TATTCGCGCCATCCGTGGCGCTCCCCCTGACGGGCCA",
+       "Start": 12993,
+       "Type": "DR"
+      },
+      {
+       "End": 13064,
+       "Sequence": "GCTAAAGCTGTTCAAAAACACTCCCGATGTTTTTG",
+       "Start": 13030,
+       "Type": "Spacer"
+      },
+      {
+       "End": 13101,
+       "Sequence": "TATTCGCGCCATCCGTGGCGCTCCCCCTGACGGGCCA",
+       "Start": 13065,
+       "Type": "DR"
+      },
+      {
+       "AT": 57,
+       "End": 13201,
+       "Leader": 1,
+       "Sequence": "TCGTCGCTTCGCTCCGATGTTCAAAATCGTTCCTGACGATTTTGTATTCTAAGCAAGCTAAACATTCCTGGTACTGGATGAGTATTCATCCCTTAAGGCT",
+       "Start": 13102,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 12993
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_180_length_34795_cov_10.3379",
+   "Length": 34795,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 72.1694063781756,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_215_length_31451_cov_11.247",
+   "Length": 31451,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 75.0935982503614,
+   "Cas": [
+    {
+     "End": 17355,
+     "Genes": [
+      {
+       "End": 16558,
+       "Orientation": "-",
+       "Start": 15167,
+       "Sub_type": "Cas10_0_III"
+      },
+      {
+       "End": 9396,
+       "Orientation": "-",
+       "Start": 7162,
+       "Sub_type": "Cas1_0_I-II-III"
+      },
+      {
+       "End": 7162,
+       "Orientation": "-",
+       "Start": 6887,
+       "Sub_type": "Cas2_0_I-II-III-V"
+      },
+      {
+       "End": 17355,
+       "Orientation": "-",
+       "Start": 16555,
+       "Sub_type": "Cas6_0_I-III"
+      },
+      {
+       "End": 11509,
+       "Orientation": "-",
+       "Start": 9749,
+       "Sub_type": "Csm3_0_IIIAD"
+      },
+      {
+       "End": 15170,
+       "Orientation": "-",
+       "Start": 14619,
+       "Sub_type": "Csm3_0_IIID"
+      },
+      {
+       "End": 13196,
+       "Orientation": "-",
+       "Start": 11931,
+       "Sub_type": "Csm3_1_IIIAD"
+      }
+     ],
+     "Start": 6887,
+     "Type": "General-Class1"
+    }
+   ],
+   "CrisprCasMinimalDistance": 409,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 94.1465289603727,
+     "Conservation_Spacers": 8.7719298245614,
+     "DR_Consensus": "GTCTTAATCCCCTTAAATCGGGTCATTGTATTTGAAT",
+     "DR_Length": 37,
+     "End": 6478,
+     "Evidence_Level": 3,
+     "Name": "NODE_264_length_26977_cov_9.17698_1",
+     "Potential_Orientation": "+",
+     "Regions": [
+      {
+       "AT": 79,
+       "End": 6148,
+       "Leader": 1,
+       "Sequence": "GACAGTTATTCTTTTCATTTTTTCTTTCCTTATTTTTATATAAAGAAAGTATAGAAGAAAAATTTGACAGAAATTGTCGTTTTTTATTTATAATGTAGAG",
+       "Start": 6049,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 6185,
+       "Sequence": "ACTTTAATCCCCTTAAATCGGGTCATTGTATTTGAAT",
+       "Start": 6149,
+       "Type": "DR"
+      },
+      {
+       "End": 6221,
+       "Sequence": "GCAACAATTTGTTTTATAATGGGTGAATTTATTTTA",
+       "Start": 6186,
+       "Type": "Spacer"
+      },
+      {
+       "End": 6258,
+       "Sequence": "GTCTTAATCCCCTTAAATCGGGTCATTGTATTTGAAT",
+       "Start": 6222,
+       "Type": "DR"
+      },
+      {
+       "End": 6297,
+       "Sequence": "GGTTGGAAGAAGGAGTGGACAGCTCACGTAATAAAACAA",
+       "Start": 6259,
+       "Type": "Spacer"
+      },
+      {
+       "End": 6334,
+       "Sequence": "GTCTTAATCCCCTTAAATCGGGTCATTGTATTTGAAT",
+       "Start": 6298,
+       "Type": "DR"
+      },
+      {
+       "End": 6371,
+       "Sequence": "TAGGTAAGAAAGTAGAATTTTATTACAAAGAAGAAAT",
+       "Start": 6335,
+       "Type": "Spacer"
+      },
+      {
+       "End": 6408,
+       "Sequence": "GTCTTAATCCCCTTAAATCGGGTCATTGTATTTGAAT",
+       "Start": 6372,
+       "Type": "DR"
+      },
+      {
+       "End": 6441,
+       "Sequence": "GTCCATCTTGTAATCTTCCAGTGGAGGCAACAT",
+       "Start": 6409,
+       "Type": "Spacer"
+      },
+      {
+       "End": 6478,
+       "Sequence": "GTCTTAATCCCCTTAAATCGGGTCATTGTATTTGAAT",
+       "Start": 6442,
+       "Type": "DR"
+      },
+      {
+       "AT": 70,
+       "End": 6578,
+       "Leader": 0,
+       "Sequence": "AGCCACCACTTAGGCTTTTCATGGTGACATTATATTTTTAAACTTCTTAAAAAACCCTTTTTATGGTTCGTTTAGAAAAAGTTCGCAAACATATAGTTAT",
+       "Start": 6479,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 4,
+     "Start": 6149
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_264_length_26977_cov_9.17698",
+   "Length": 26977,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 45.4950786573568,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_317_length_23774_cov_15.6137",
+   "Length": 23774,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 53.8495971351835,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_365_length_22340_cov_9.1179",
+   "Length": 22340,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 39.752319151853,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 96.875,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "GGGAGAGGGGGCTGATCTGTGGAGGTATTGAG",
+     "DR_Length": 32,
+     "End": 670,
+     "Evidence_Level": 1,
+     "Name": "NODE_381_length_21883_cov_23.8453_1",
+     "Potential_Orientation": "+",
+     "Regions": [
+      {
+       "AT": 45,
+       "End": 577,
+       "Leader": 1,
+       "Sequence": "TCATGTTCTGATTCACGAGTTACCTTGCATTGGGCTTACGCCTTTGCAGCGGCCCGATACAGGGCAACAAAAAAGCCCCTCACCCCAACCCTCTCCCGGA",
+       "Start": 478,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 609,
+       "Sequence": "GGGAGAGGGGGCTGATCTGTGGAGGTATTGAG",
+       "Start": 578,
+       "Type": "DR"
+      },
+      {
+       "End": 638,
+       "Sequence": "ACCGCGTGCGGTCAGTTCCCTCTACCGGC",
+       "Start": 610,
+       "Type": "Spacer"
+      },
+      {
+       "End": 670,
+       "Sequence": "GGGAGAGGGGGCTGATCTGTGGAGATATTGAG",
+       "Start": 639,
+       "Type": "DR"
+      },
+      {
+       "AT": 42,
+       "End": 770,
+       "Leader": 0,
+       "Sequence": "GCCGCGGGTGGTCAGTTCCCTCTCCCTCCGGGAGAGGGCTAGGGTGAGGGGCTTTTGATTGGGCTCGACCTTCTACAGAGTATCCACAGAGTAAAGAGTT",
+       "Start": 671,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 578
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_381_length_21883_cov_23.8453",
+   "Length": 21883,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 37.7796188898094,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_386_length_21726_cov_14.9151",
+   "Length": 21726,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 43.7069126141233,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_392_length_21468_cov_5.12005",
+   "Length": 21468,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 39.2553297968171,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 96,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "GGGAGAGGGAGCTGATTGGCGGTG",
+     "DR_Length": 24,
+     "End": 1732,
+     "Evidence_Level": 1,
+     "Name": "NODE_429_length_19982_cov_22.9788_1",
+     "Potential_Orientation": "-",
+     "Regions": [
+      {
+       "AT": 40,
+       "End": 1648,
+       "Leader": 0,
+       "Sequence": "CTGTTTTCCGAGCGCCACGCTCGTACCTCAACCCCGCCATTTGGCGGGGCTTTTTTTTGCCTGCGATTTGAAGAGCCCCTCACCCCAACCCTCTCCCGGA",
+       "Start": 1549,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 1672,
+       "Sequence": "GGGAGAGGGAGCTGATTGGCGGTG",
+       "Start": 1649,
+       "Type": "DR"
+      },
+      {
+       "End": 1708,
+       "Sequence": "CTCTTGAAATCGCGTGCGGTCAATCCCCTCTCCCTT",
+       "Start": 1673,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1732,
+       "Sequence": "TGGGAGAGGGGCTGATTGGCGGTG",
+       "Start": 1709,
+       "Type": "DR"
+      },
+      {
+       "AT": 47,
+       "End": 1832,
+       "Leader": 1,
+       "Sequence": "TTTTTGAAATCGCGCGCGGTCAGTCCCCTCTCCCTTTGGGAGAAGCTCTGATTGGCGGTGTTTTTGAAATTGCAGGCGCTAAGTCCCTTCTCCCTTTCGG",
+       "Start": 1733,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 1649
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_429_length_19982_cov_22.9788",
+   "Length": 19982,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 38.8335021591939,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_465_length_18757_cov_6.42024",
+   "Length": 18757,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 54.0290894051148,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_652_length_14507_cov_4.54492",
+   "Length": 14507,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 53.8868510158014,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_677_length_14176_cov_9.09716",
+   "Length": 14176,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 39.3237410071942,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_696_length_13900_cov_5.82306",
+   "Length": 13900,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 42.4718754815842,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "CTTGCTCGCGATGGCATCGCCACGGTTTGCCTGACAGACCCCAGT",
+     "DR_Length": 45,
+     "End": 12917,
+     "Evidence_Level": 1,
+     "Name": "NODE_771_length_12978_cov_31.4342_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 41,
+       "End": 12769,
+       "Leader": 0,
+       "Sequence": "CATGCTGGGGGCAGAAGCGGTAGAGAAGCTGATCGAGCAAGGGCGTTATCGGCGGGATGTGTACTAGTCGGACAAGCTGCTCAGCTCTTGTGGGAGCGGA",
+       "Start": 12670,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 12814,
+       "Sequence": "CTTGCTCGCGATGGCATCGCCACGGTTTGCCTGACAGACCCCAGT",
+       "Start": 12770,
+       "Type": "DR"
+      },
+      {
+       "End": 12872,
+       "Sequence": "ATCTGCATCGCAGGCAAGCCAGCTCCCACTGGATTTACGGTGACATTGTGGGAGCGGG",
+       "Start": 12815,
+       "Type": "Spacer"
+      },
+      {
+       "End": 12917,
+       "Sequence": "CTTGCTCGCGATGGCATCGCCACGGTTTGCCTGACAGACCCCAGT",
+       "Start": 12873,
+       "Type": "DR"
+      },
+      {
+       "AT": 0,
+       "End": 13017,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": 12918,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 12770
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_771_length_12978_cov_31.4342",
+   "Length": 12978,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 56.0144871696078,
+   "Cas": [
+    {
+     "End": 10331,
+     "Genes": [
+      {
+       "End": 10331,
+       "Orientation": "-",
+       "Start": 8829,
+       "Sub_type": "Cas3_1_I"
+      }
+     ],
+     "Start": 8829,
+     "Type": "General-Class1"
+    }
+   ],
+   "CrisprCasMinimalDistance": 4425,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 0,
+     "Conservation_Spacers": 0,
+     "DR_Consensus": "CRT results",
+     "DR_Length": 41,
+     "End": 4404,
+     "Evidence_Level": 1,
+     "Name": "NODE_772_length_12977_cov_5.94241_crispr_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "End": 4275,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": 4275,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 4316,
+       "Sequence": "GTAGGTGGTTTTGGAACGATAGGAAGTATTTTTCCGAAAGT",
+       "Start": 4275,
+       "Type": "DR"
+      },
+      {
+       "End": 4364,
+       "Sequence": "GATGTGAACGATATGAAATATGTGTTCACCAAAGAAGGAGCCAAGAGT",
+       "Start": 4316,
+       "Type": "Spacer"
+      },
+      {
+       "End": 4405,
+       "Sequence": "GTAGGTGGTTTTGGAACGATAGGAAGTATTTTTCCGAAAGT",
+       "Start": 4364,
+       "Type": "DR"
+      },
+      {
+       "End": 4404,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": 4404,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "CRT results",
+     "Spacers": 1,
+     "Start": 4275
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_772_length_12977_cov_5.94241",
+   "Length": 12977,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 50.0078198310917,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_786_length_12788_cov_7.48179",
+   "Length": 12788,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 53.8437077669131,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_812_length_12579_cov_8.28758",
+   "Length": 12579,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 51.9145802650957,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 85.0128441417958,
+     "Conservation_Spacers": 0,
+     "DR_Consensus": "GTTGACCGCCGCACAGGCGGCTTAGAAAT",
+     "DR_Length": 29,
+     "End": 1611,
+     "Evidence_Level": 4,
+     "Name": "NODE_843_length_12222_cov_6.30765_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 0,
+       "End": 22,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": -77,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 51,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAT",
+       "Start": 23,
+       "Type": "DR"
+      },
+      {
+       "End": 82,
+       "Sequence": "GCATCCTTAATGATTCAATCTCATCTTTTAG",
+       "Start": 52,
+       "Type": "Spacer"
+      },
+      {
+       "End": 111,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAT",
+       "Start": 83,
+       "Type": "DR"
+      },
+      {
+       "End": 142,
+       "Sequence": "ATTAAAAATACAATCGCACCTAGAACATAGA",
+       "Start": 112,
+       "Type": "Spacer"
+      },
+      {
+       "End": 171,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAG",
+       "Start": 143,
+       "Type": "DR"
+      },
+      {
+       "End": 202,
+       "Sequence": "TAATGATGAACTATGAAGCCATAAACATTTT",
+       "Start": 172,
+       "Type": "Spacer"
+      },
+      {
+       "End": 231,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAG",
+       "Start": 203,
+       "Type": "DR"
+      },
+      {
+       "End": 262,
+       "Sequence": "CCAATCGCTACGCCGCACAAAATCAGGCGCT",
+       "Start": 232,
+       "Type": "Spacer"
+      },
+      {
+       "End": 291,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAT",
+       "Start": 263,
+       "Type": "DR"
+      },
+      {
+       "End": 322,
+       "Sequence": "GACATAACCACAACAGAAGAATTTGAGTCGC",
+       "Start": 292,
+       "Type": "Spacer"
+      },
+      {
+       "End": 351,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAT",
+       "Start": 323,
+       "Type": "DR"
+      },
+      {
+       "End": 382,
+       "Sequence": "ATAGAAAGATATTGGCTGACCAAACCTTAAT",
+       "Start": 352,
+       "Type": "Spacer"
+      },
+      {
+       "End": 411,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAT",
+       "Start": 383,
+       "Type": "DR"
+      },
+      {
+       "End": 442,
+       "Sequence": "GAATCTTTACGCCCATTTTTGGCATTATTGC",
+       "Start": 412,
+       "Type": "Spacer"
+      },
+      {
+       "End": 471,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAG",
+       "Start": 443,
+       "Type": "DR"
+      },
+      {
+       "End": 502,
+       "Sequence": "CCAATCGCTACGCCGCACAAAATCAGGCGCC",
+       "Start": 472,
+       "Type": "Spacer"
+      },
+      {
+       "End": 531,
+       "Sequence": "GTTGACCGCCGCACAGCCGGCTTAGAAAC",
+       "Start": 503,
+       "Type": "DR"
+      },
+      {
+       "End": 562,
+       "Sequence": "ACTCGCGGAATGGCCGTTGATATTGCTTACC",
+       "Start": 532,
+       "Type": "Spacer"
+      },
+      {
+       "End": 591,
+       "Sequence": "GGTGACAGACGCACAGGCGGCTTAGAAAT",
+       "Start": 563,
+       "Type": "DR"
+      },
+      {
+       "End": 622,
+       "Sequence": "AGCAATCCAGAGACAACCGAACCACCAACAA",
+       "Start": 592,
+       "Type": "Spacer"
+      },
+      {
+       "End": 651,
+       "Sequence": "GTTGACCGCCGCACGGGCGGCTTAGAAAC",
+       "Start": 623,
+       "Type": "DR"
+      },
+      {
+       "End": 682,
+       "Sequence": "TGCATCAGTGCTAATTCTGCATTCTCTGAAA",
+       "Start": 652,
+       "Type": "Spacer"
+      },
+      {
+       "End": 711,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAT",
+       "Start": 683,
+       "Type": "DR"
+      },
+      {
+       "End": 742,
+       "Sequence": "CCAGTTTCATAAATTCCAGAGCTAAAGACGG",
+       "Start": 712,
+       "Type": "Spacer"
+      },
+      {
+       "End": 771,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAC",
+       "Start": 743,
+       "Type": "DR"
+      },
+      {
+       "End": 802,
+       "Sequence": "GAAATAAATATATTTAACTGCCCTCCACTAC",
+       "Start": 772,
+       "Type": "Spacer"
+      },
+      {
+       "End": 831,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAA",
+       "Start": 803,
+       "Type": "DR"
+      },
+      {
+       "End": 862,
+       "Sequence": "GTTAACGGACCAGCAAACGACTGAATTCTTG",
+       "Start": 832,
+       "Type": "Spacer"
+      },
+      {
+       "End": 891,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAT",
+       "Start": 863,
+       "Type": "DR"
+      },
+      {
+       "End": 922,
+       "Sequence": "AATCAAAACAGAAGAAGGCTTCCGAGCGAAG",
+       "Start": 892,
+       "Type": "Spacer"
+      },
+      {
+       "End": 951,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAA",
+       "Start": 923,
+       "Type": "DR"
+      },
+      {
+       "End": 982,
+       "Sequence": "GTTAGCGCAAGGGCGTTGGCTGCCGATTCTG",
+       "Start": 952,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1011,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAA",
+       "Start": 983,
+       "Type": "DR"
+      },
+      {
+       "End": 1042,
+       "Sequence": "AGAATTCGTTTGTATCGTAGTGGTCAACCTT",
+       "Start": 1012,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1071,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAT",
+       "Start": 1043,
+       "Type": "DR"
+      },
+      {
+       "End": 1102,
+       "Sequence": "ATAGGGTTACGCTTACCCCAGCCGTAGAAAG",
+       "Start": 1072,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1131,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAT",
+       "Start": 1103,
+       "Type": "DR"
+      },
+      {
+       "End": 1162,
+       "Sequence": "GGCAAATGGCAGCGTGTGTTCGGCAATGTTT",
+       "Start": 1132,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1191,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAT",
+       "Start": 1163,
+       "Type": "DR"
+      },
+      {
+       "End": 1222,
+       "Sequence": "GGCCCGTGCAACCCTTTCATAATTACCCCTT",
+       "Start": 1192,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1251,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAT",
+       "Start": 1223,
+       "Type": "DR"
+      },
+      {
+       "End": 1282,
+       "Sequence": "GCAACGCGGTGTGACGTTCTGTGAGCCTTGC",
+       "Start": 1252,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1311,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAT",
+       "Start": 1283,
+       "Type": "DR"
+      },
+      {
+       "End": 1342,
+       "Sequence": "CATCAGCAAGATTCCACCCTGGAACCCTGTA",
+       "Start": 1312,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1371,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAT",
+       "Start": 1343,
+       "Type": "DR"
+      },
+      {
+       "End": 1402,
+       "Sequence": "TAACGTCATTAACGTGCATTGCTGCCGTTTC",
+       "Start": 1372,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1431,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAT",
+       "Start": 1403,
+       "Type": "DR"
+      },
+      {
+       "End": 1462,
+       "Sequence": "GGGCGTGACTGTGGAAAATCCCGAGGCGTTT",
+       "Start": 1432,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1491,
+       "Sequence": "GTTGACCGCCGCACAGGCGGCTTAGAAAG",
+       "Start": 1463,
+       "Type": "DR"
+      },
+      {
+       "End": 1522,
+       "Sequence": "GTCATCGGGTTTATACCGAGCTGTTGGAACA",
+       "Start": 1492,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1551,
+       "Sequence": "GTTGACCGCCGCACAGGCAGCTTAGGAAA",
+       "Start": 1523,
+       "Type": "DR"
+      },
+      {
+       "End": 1582,
+       "Sequence": "TACAGCGCCAGTGCCATTTCTTCAGCGACTC",
+       "Start": 1552,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1611,
+       "Sequence": "GTTCACTGCCGAACAGGCAGTTTAGAAAA",
+       "Start": 1583,
+       "Type": "DR"
+      },
+      {
+       "AT": 58,
+       "End": 1711,
+       "Leader": 0,
+       "Sequence": "CAAGTAAGCTGGTTGCCTGCCTCAATAGCCGTTTACTGTTGAACTAAGTCGTGGAATTGATGCGTTTTTGTAATCAGTTCCCTTTCTATCCGCTTTTATG",
+       "Start": 1612,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 26,
+     "Start": 23
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_843_length_12222_cov_6.30765",
+   "Length": 12222,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 74.549887471868,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "AATATAACTTTATATTGATTATA",
+     "DR_Length": 23,
+     "End": 3072,
+     "Evidence_Level": 1,
+     "Name": "NODE_1007_length_10664_cov_11.1425_1",
+     "Potential_Orientation": "+",
+     "Regions": [
+      {
+       "AT": 80,
+       "End": 2984,
+       "Leader": 1,
+       "Sequence": "AATTAATTTCTTTTCTAATAAAGCTTCTGATTCTATGTTTGACATTATTTAAGTAGTTCCTTTATCTTTATTGATTGATTTTAATGAACAAAGTTTTTTT",
+       "Start": 2885,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 3007,
+       "Sequence": "AATATAACTTTATATTGATTATA",
+       "Start": 2985,
+       "Type": "DR"
+      },
+      {
+       "End": 3049,
+       "Sequence": "AACATTGATTTTAATTAATAAGGTTGTAATTTAATAAATTTC",
+       "Start": 3008,
+       "Type": "Spacer"
+      },
+      {
+       "End": 3072,
+       "Sequence": "AATATAACTTTATATTGATTATA",
+       "Start": 3050,
+       "Type": "DR"
+      },
+      {
+       "AT": 76,
+       "End": 3172,
+       "Leader": 0,
+       "Sequence": "GCTTTTTGATTCTGAAGATATTGAAGAATATAAAATATATCAAGATAATTCTCTTGATATATTTAGAGTTTTTATTACACAAACATAGTCTGCAAAAGTG",
+       "Start": 3073,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 2985
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_1007_length_10664_cov_11.1425",
+   "Length": 10664,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 39.1538898353208,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1026_length_10566_cov_6.00441",
+   "Length": 10566,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 38.0773143438454,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1114_length_9830_cov_6.17644",
+   "Length": 9830,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 52.2708246128087,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1157_length_9556_cov_9.00838",
+   "Length": 9556,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 70.244007773699,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "AAACTTACTATTGATGAGTTAAAA",
+     "DR_Length": 24,
+     "End": 616,
+     "Evidence_Level": 1,
+     "Name": "NODE_1198_length_9262_cov_7.70684_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 70,
+       "End": 508,
+       "Leader": 0,
+       "Sequence": "TTTGATACAAAAAATACAGATAGTTAAACATAATGTTTTTATGGATGATGAAAGCAGACGTGAGTTTATGCTTTCAAGGTTTGGAGTTGATAGTACAACA",
+       "Start": 409,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 532,
+       "Sequence": "AAACTTACTATTGATGAGTTAAAA",
+       "Start": 509,
+       "Type": "DR"
+      },
+      {
+       "End": 592,
+       "Sequence": "ATAGATGATGAAAGCAGACGTGAGTTTATGCTTTCTCGTTTTGGAGTGAATAGTACTACT",
+       "Start": 533,
+       "Type": "Spacer"
+      },
+      {
+       "End": 616,
+       "Sequence": "AAACTTACTATTGATGAGTTAAAA",
+       "Start": 593,
+       "Type": "DR"
+      },
+      {
+       "AT": 60,
+       "End": 716,
+       "Leader": 0,
+       "Sequence": "CTACTTTTAGATTTTTGTCTGCACAAGGCAGAATTTCCTCCCGTTGGTCGAGCATGCAATAGAAATGTAAGTGATATACCAGTTTCAAAAGCAACGGAAG",
+       "Start": 617,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 509
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_1198_length_9262_cov_7.70684",
+   "Length": 9262,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 73.1999560294603,
+   "Cas": [
+    {
+     "End": 5434,
+     "Genes": [
+      {
+       "End": 3176,
+       "Orientation": "-",
+       "Start": 942,
+       "Sub_type": "Cas1_0_I-II-III"
+      },
+      {
+       "End": 942,
+       "Orientation": "-",
+       "Start": 667,
+       "Sub_type": "Cas2_0_I-II-III-V"
+      },
+      {
+       "End": 5434,
+       "Orientation": "-",
+       "Start": 4610,
+       "Sub_type": "Cmr4_0_IIIB"
+      },
+      {
+       "End": 4613,
+       "Orientation": "-",
+       "Start": 4230,
+       "Sub_type": "Cmr5_0_IIIB"
+      },
+      {
+       "End": 4237,
+       "Orientation": "-",
+       "Start": 3179,
+       "Sub_type": "Cmr6_0_IIIB"
+      }
+     ],
+     "Start": 667,
+     "Type": "General-Class1"
+    }
+   ],
+   "CrisprCasMinimalDistance": 404,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 97.8073564203807,
+     "Conservation_Spacers": 10.6382978723404,
+     "DR_Consensus": "GTCTCAAAATAACTACCTCTCAAAGAGAGAGGTTTAT",
+     "DR_Length": 37,
+     "End": 263,
+     "Evidence_Level": 1,
+     "Name": "NODE_1237_length_9097_cov_6.46054_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 0,
+       "End": 11,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": -88,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 48,
+       "Sequence": "GTCTCAAAATAACTTCCTCTCAAAGAGAGAGGTTTAT",
+       "Start": 12,
+       "Type": "DR"
+      },
+      {
+       "End": 83,
+       "Sequence": "ACTCTTATGCCATAATGACCTAGATGGTTATGGAG",
+       "Start": 49,
+       "Type": "Spacer"
+      },
+      {
+       "End": 120,
+       "Sequence": "GTCTCAAAATAACTACCTCTCAAAGAGAGAGGTTTAT",
+       "Start": 84,
+       "Type": "DR"
+      },
+      {
+       "End": 155,
+       "Sequence": "CCAGCTCCATTGTGGTCGCCAGCAATGGCAATTGA",
+       "Start": 121,
+       "Type": "Spacer"
+      },
+      {
+       "End": 192,
+       "Sequence": "GTCTCAAAATAACTACCTCTCAAAGAGAGAGGTTTAT",
+       "Start": 156,
+       "Type": "DR"
+      },
+      {
+       "End": 226,
+       "Sequence": "AAAGACAGTTAAAGGTAATTAAAGAGTTAAAAGC",
+       "Start": 193,
+       "Type": "Spacer"
+      },
+      {
+       "End": 263,
+       "Sequence": "GTCTCAAAATAACTACCTCTCAAAGAGAGAGGTTTAT",
+       "Start": 227,
+       "Type": "DR"
+      },
+      {
+       "AT": 72,
+       "End": 363,
+       "Leader": 0,
+       "Sequence": "AGCCATAAAATAGGCTTTGTAGAAAAGTATTCTACTAAATTAAATCTTATATATTCCCTTTTTATCCACATTTGAGCTAAAAGTTCGCAAATGTATACCA",
+       "Start": 264,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 3,
+     "Start": 12
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_1237_length_9097_cov_6.46054",
+   "Length": 9097,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 57.2563734687121,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1247_length_9061_cov_5.93821",
+   "Length": 9061,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 42.9762307085727,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1286_length_8877_cov_30.6835",
+   "Length": 8877,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 58.2136973405507,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "CTTTGTTTGAAGAAGCAATAGGTGTTC",
+     "DR_Length": 27,
+     "End": 5260,
+     "Evidence_Level": 1,
+     "Name": "NODE_1349_length_8498_cov_5.96309_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 57,
+       "End": 5164,
+       "Leader": 0,
+       "Sequence": "ATTAAAGGTATGGGTGTAGGTGCTCCTAATGGAAACTACTATAACGGTACCATTGAATTTGCTCCAAATCTTCCTTGGAAAGGGGTGATTCCCTTGGCTG",
+       "Start": 5065,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 5191,
+       "Sequence": "CTTTGTTTGAAGAAGCAATAGGTGTTC",
+       "Start": 5165,
+       "Type": "DR"
+      },
+      {
+       "End": 5233,
+       "Sequence": "TTGCTCCGAATCTTCCTTGGAAAGGGGTGATTCCCTTGGCTA",
+       "Start": 5192,
+       "Type": "Spacer"
+      },
+      {
+       "End": 5260,
+       "Sequence": "CTTTGTTTGAAGAAGCAATAGGTGTTC",
+       "Start": 5234,
+       "Type": "DR"
+      },
+      {
+       "AT": 56,
+       "End": 5360,
+       "Leader": 0,
+       "Sequence": "CTACTGCCTTGACAAATGATGCTAATGCTGCCGCTATCGGTGAAATGACTTATGGTGCGGCTCGTGGCATGAAAGACTTTATTATGATTACTCTTGGAAC",
+       "Start": 5261,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 5165
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_1349_length_8498_cov_5.96309",
+   "Length": 8498,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 55.729794933655,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1386_length_8290_cov_4.2787",
+   "Length": 8290,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 53.0082097782135,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1416_length_8161_cov_8.18845",
+   "Length": 8161,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 49.975314737102,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 76.0444565029264,
+     "Conservation_Spacers": 37.037037037037,
+     "DR_Consensus": "CAGAAATGACCACTTAATGGCTT",
+     "DR_Length": 23,
+     "End": 1813,
+     "Evidence_Level": 1,
+     "Name": "NODE_1429_length_8102_cov_2.9684_1",
+     "Potential_Orientation": "-",
+     "Regions": [
+      {
+       "AT": 46,
+       "End": 1696,
+       "Leader": 0,
+       "Sequence": "ATGGGGGAGGGGCAGAAGTAGCGGGCCGATCCGAAGCCATTAAGGTGGCACAACCATGCCTCTTTGAAAGCCGCACAAATGATCCTCTATTTCAGTGGCA",
+       "Start": 1597,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 1719,
+       "Sequence": "CAGAAATGACCACTTAATGGCTT",
+       "Start": 1697,
+       "Type": "DR"
+      },
+      {
+       "End": 1746,
+       "Sequence": "CCCACTGGCTCTTCCGTTTCAGTGGCA",
+       "Start": 1720,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1769,
+       "Sequence": "CAGAAATGACCACTTAATGGCTT",
+       "Start": 1747,
+       "Type": "DR"
+      },
+      {
+       "End": 1790,
+       "Sequence": "AGAAATGACCACTTAATGGCT",
+       "Start": 1770,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1813,
+       "Sequence": "TTTAAATGGCCACTGAACGGCTT",
+       "Start": 1791,
+       "Type": "DR"
+      },
+      {
+       "AT": 61,
+       "End": 1913,
+       "Leader": 1,
+       "Sequence": "TTAAATAACTTTTTTAAGCTACGGCTAATTCAAGGTTCGGCAACCAGCCACGGTGGATCATGAGTAATAGAGCATTGTAGCTAGCGAAAATTGCCATTTA",
+       "Start": 1814,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 2,
+     "Start": 1697
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_1429_length_8102_cov_2.9684",
+   "Length": 8102,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 75.1518987341772,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1481_length_7900_cov_17.0697",
+   "Length": 7900,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 71.18004045853,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1602_length_7415_cov_9.75384",
+   "Length": 7415,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 58.4640567453281,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1622_length_7331_cov_6.38715",
+   "Length": 7331,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 59.2495516622983,
+   "Cas": [
+    {
+     "End": 6726,
+     "Genes": [
+      {
+       "End": 6426,
+       "Orientation": "+",
+       "Start": 5404,
+       "Sub_type": "Cas1_0_IC"
+      },
+      {
+       "End": 6726,
+       "Orientation": "+",
+       "Start": 6436,
+       "Sub_type": "Cas2_0_I-II-III-V"
+      },
+      {
+       "End": 5407,
+       "Orientation": "+",
+       "Start": 4742,
+       "Sub_type": "Cas4_0_I-II"
+      },
+      {
+       "End": 2141,
+       "Orientation": "+",
+       "Start": 1452,
+       "Sub_type": "Cas5_0_IC"
+      },
+      {
+       "End": 4732,
+       "Orientation": "+",
+       "Start": 3881,
+       "Sub_type": "Cas7_0_IC"
+      },
+      {
+       "End": 3859,
+       "Orientation": "+",
+       "Start": 2138,
+       "Sub_type": "Cas8c_0_IC"
+      }
+     ],
+     "Start": 1452,
+     "Type": "General-Class1"
+    }
+   ],
+   "CrisprCasMinimalDistance": 166,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 0,
+     "Conservation_Spacers": 0,
+     "DR_Consensus": "CRT results",
+     "DR_Length": 32,
+     "End": 7188,
+     "Evidence_Level": 1,
+     "Name": "NODE_1645_length_7249_cov_3.33965_crispr_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "End": 6892,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": 6892,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 6924,
+       "Sequence": "GTCACACCCTACGTGGGTGTGTGGATTGAAAC",
+       "Start": 6892,
+       "Type": "DR"
+      },
+      {
+       "End": 6959,
+       "Sequence": "ACACCTACAATATTAGGGTATTGTACCGGGACTGT",
+       "Start": 6924,
+       "Type": "Spacer"
+      },
+      {
+       "End": 6991,
+       "Sequence": "GTCACACCCTACGTGGGTGTGTGGATTGAAAC",
+       "Start": 6959,
+       "Type": "DR"
+      },
+      {
+       "End": 7024,
+       "Sequence": "TGTAATGTGCGGATTAAAGCACGATAACCCCAT",
+       "Start": 6991,
+       "Type": "Spacer"
+      },
+      {
+       "End": 7056,
+       "Sequence": "GTCACACCCTACGTGGGTGTGTGGATTGAAAC",
+       "Start": 7024,
+       "Type": "DR"
+      },
+      {
+       "End": 7091,
+       "Sequence": "TTCCAAAAGCAATTGCAGCAAGAAGCGAAAGCCTA",
+       "Start": 7056,
+       "Type": "Spacer"
+      },
+      {
+       "End": 7123,
+       "Sequence": "GTCACACCCTACGTGGGTGTGTGGATTGAAAC",
+       "Start": 7091,
+       "Type": "DR"
+      },
+      {
+       "End": 7157,
+       "Sequence": "ATCAATGGCCCAGTATTCGGCAATATCGAAGATG",
+       "Start": 7123,
+       "Type": "Spacer"
+      },
+      {
+       "End": 7189,
+       "Sequence": "GTCACACCCTGCGTGGGAATATATGGATTGGA",
+       "Start": 7157,
+       "Type": "DR"
+      },
+      {
+       "End": 7188,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": 7188,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "CRT results",
+     "Spacers": 4,
+     "Start": 6892
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_1645_length_7249_cov_3.33965",
+   "Length": 7249,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 69.7680877655881,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1664_length_7201_cov_3.93554",
+   "Length": 7201,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 74.0824713050872,
+   "Cas": [
+    {
+     "End": 2305,
+     "Genes": [
+      {
+       "End": 2305,
+       "Orientation": "-",
+       "Start": 1949,
+       "Sub_type": "Cas2_0_I-II-III"
+      }
+     ],
+     "Start": 1949,
+     "Type": "General-Class1"
+    },
+    {
+     "End": 6791,
+     "Genes": [
+      {
+       "End": 6791,
+       "Orientation": "-",
+       "Start": 3279,
+       "Sub_type": "Cas9_0_II"
+      },
+      {
+       "End": 3174,
+       "Orientation": "-",
+       "Start": 2302,
+       "Sub_type": "Cas1_0_II"
+      }
+     ],
+     "Start": 2302,
+     "Type": "General-Class2"
+    }
+   ],
+   "CrisprCasMinimalDistance": 48,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 97.6983714362672,
+     "Conservation_Spacers": 0,
+     "DR_Consensus": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+     "DR_Length": 36,
+     "End": 1901,
+     "Evidence_Level": 4,
+     "Name": "NODE_1714_length_7057_cov_38.8336_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 70,
+       "End": 549,
+       "Leader": 0,
+       "Sequence": "AGCAAAAAGTGATGGACCAAATATGCTTCATATTGAACAACTTTATAAAACTATGGATGAGATTTTTGCTATTAAAGAGGCTTTAGGAAACTAAAACTTC",
+       "Start": 450,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 585,
+       "Sequence": "TTTACAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 550,
+       "Type": "DR"
+      },
+      {
+       "End": 615,
+       "Sequence": "CCTTTCAAGTCTGGCTCTAAATCTTCACAC",
+       "Start": 586,
+       "Type": "Spacer"
+      },
+      {
+       "End": 651,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 616,
+       "Type": "DR"
+      },
+      {
+       "End": 681,
+       "Sequence": "TTTTTTAATAAATTCTACAGTTCCATTAAA",
+       "Start": 652,
+       "Type": "Spacer"
+      },
+      {
+       "End": 717,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 682,
+       "Type": "DR"
+      },
+      {
+       "End": 747,
+       "Sequence": "TTTCGCCTGATTTTTTACCATTCGCAGAAG",
+       "Start": 718,
+       "Type": "Spacer"
+      },
+      {
+       "End": 783,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 748,
+       "Type": "DR"
+      },
+      {
+       "End": 813,
+       "Sequence": "TAGTTCATAAAATACTTCACTCATATACTC",
+       "Start": 784,
+       "Type": "Spacer"
+      },
+      {
+       "End": 849,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 814,
+       "Type": "DR"
+      },
+      {
+       "End": 879,
+       "Sequence": "TTAATAAAAGTTAACTTCATCTTACACTTA",
+       "Start": 850,
+       "Type": "Spacer"
+      },
+      {
+       "End": 915,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 880,
+       "Type": "DR"
+      },
+      {
+       "End": 945,
+       "Sequence": "AGGCTCTATAAACATTAGTTAAATAGATTG",
+       "Start": 916,
+       "Type": "Spacer"
+      },
+      {
+       "End": 981,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 946,
+       "Type": "DR"
+      },
+      {
+       "End": 1010,
+       "Sequence": "ATACAAGTCTTCCATTTAAAGTAAATCTA",
+       "Start": 982,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1046,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1011,
+       "Type": "DR"
+      },
+      {
+       "End": 1076,
+       "Sequence": "AATCCCTTATTACTGCTCGGTAAGCTCTAA",
+       "Start": 1047,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1112,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1077,
+       "Type": "DR"
+      },
+      {
+       "End": 1142,
+       "Sequence": "AAATCAATGATAAAAATTCAGCAATACATC",
+       "Start": 1113,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1178,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1143,
+       "Type": "DR"
+      },
+      {
+       "End": 1207,
+       "Sequence": "AATCTTTAAGGGTTGGAATTGCTGGAGCT",
+       "Start": 1179,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1243,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1208,
+       "Type": "DR"
+      },
+      {
+       "End": 1273,
+       "Sequence": "ACTCCAACCTACAAGTATGACTCAATATTA",
+       "Start": 1244,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1309,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1274,
+       "Type": "DR"
+      },
+      {
+       "End": 1339,
+       "Sequence": "TTAAATTTATTTGTATATTCTTCTAGTGTT",
+       "Start": 1310,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1375,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1340,
+       "Type": "DR"
+      },
+      {
+       "End": 1405,
+       "Sequence": "TAAAAAAGGTATGGTTACTTTAGGTTTAGT",
+       "Start": 1376,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1441,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1406,
+       "Type": "DR"
+      },
+      {
+       "End": 1471,
+       "Sequence": "AAATCCTAACTCATCAATACAAAGAGTAAA",
+       "Start": 1442,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1507,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1472,
+       "Type": "DR"
+      },
+      {
+       "End": 1537,
+       "Sequence": "TTAGTGTAGTAACTTTTTTAAAAGTAATCA",
+       "Start": 1508,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1573,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1538,
+       "Type": "DR"
+      },
+      {
+       "End": 1603,
+       "Sequence": "TGGAAGAAAATTAGGTGAAGCAGACCCTAT",
+       "Start": 1574,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1639,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1604,
+       "Type": "DR"
+      },
+      {
+       "End": 1668,
+       "Sequence": "TTAAATCCTACTACTTGAGCCATTACATT",
+       "Start": 1640,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1704,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1669,
+       "Type": "DR"
+      },
+      {
+       "End": 1733,
+       "Sequence": "TTACATATTCGTTTACTTGATATGTATAA",
+       "Start": 1705,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1769,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1734,
+       "Type": "DR"
+      },
+      {
+       "End": 1799,
+       "Sequence": "GCTTGGTCTGGTGCTAACCATACCTCTTTA",
+       "Start": 1770,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1835,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1800,
+       "Type": "DR"
+      },
+      {
+       "End": 1865,
+       "Sequence": "TTTTGGCTTTGTTGTTTTGTTGGTGTTCCA",
+       "Start": 1836,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1901,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1866,
+       "Type": "DR"
+      },
+      {
+       "AT": 73,
+       "End": 2001,
+       "Leader": 0,
+       "Sequence": "GTTTATCTTTGTAAGTATTTCAAGAAGGCTTTTGTAGAGTTTTTATGCTAAAAAACAAGTACAGTTTGAGTCTGTTTTTCTACTTTTTTTTCTGGTTTTT",
+       "Start": 1902,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 20,
+     "Start": 550
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_1714_length_7057_cov_38.8336",
+   "Length": 7057,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 60.9619526202441,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1750_length_6965_cov_8.33109",
+   "Length": 6965,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 73.4078050195851,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1771_length_6893_cov_5.79279",
+   "Length": 6893,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 38.5204081632653,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1850_length_6664_cov_4.30029",
+   "Length": 6664,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 75.5108218556077,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 47.0704861387821,
+     "Conservation_Spacers": 3.50877192982456,
+     "DR_Consensus": "ACCAATATTTACATTGTTTCCTAA",
+     "DR_Length": 24,
+     "End": 3666,
+     "Evidence_Level": 2,
+     "Name": "NODE_1874_length_6607_cov_12.6043_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 68,
+       "End": 3393,
+       "Leader": 0,
+       "Sequence": "TTTTACCTACAACTATACCTTTTCTTGTCACACCTTGTTCTCTAATCAATAAATTTGGATCACTATAATTGTGATTTTCAGGGTGAAGACTCAAGTATTG",
+       "Start": 3294,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 3417,
+       "Sequence": "ACCAATAATTGTATTATCACCTAT",
+       "Start": 3394,
+       "Type": "DR"
+      },
+      {
+       "End": 3453,
+       "Sequence": "TTTAACACCACCAGCACCTCCGATGTATGCAAATTC",
+       "Start": 3418,
+       "Type": "Spacer"
+      },
+      {
+       "End": 3477,
+       "Sequence": "ACCCATTCCTACATTATTTCCAAT",
+       "Start": 3454,
+       "Type": "DR"
+      },
+      {
+       "End": 3534,
+       "Sequence": "TTCGATACCTTCACCAATATTATCAAGTGAAACTGATGTAACTAATTGACTAAATGA",
+       "Start": 3478,
+       "Type": "Spacer"
+      },
+      {
+       "End": 3558,
+       "Sequence": "ACCAATATTTACATTGTTTCCTAA",
+       "Start": 3535,
+       "Type": "DR"
+      },
+      {
+       "End": 3600,
+       "Sequence": "CATCATATTTTTCTTACCTAGTGAGTATAATTTTACATAATC",
+       "Start": 3559,
+       "Type": "Spacer"
+      },
+      {
+       "End": 3624,
+       "Sequence": "ACCAATATTTACATTGTTTCCTAA",
+       "Start": 3601,
+       "Type": "DR"
+      },
+      {
+       "End": 3642,
+       "Sequence": "TCTAATATTTTTTTTATT",
+       "Start": 3625,
+       "Type": "Spacer"
+      },
+      {
+       "End": 3666,
+       "Sequence": "GAAGATTTTTACATTTTTTCCTAA",
+       "Start": 3643,
+       "Type": "DR"
+      },
+      {
+       "AT": 74,
+       "End": 3766,
+       "Leader": 0,
+       "Sequence": "GAAAATTTTCTTTTTAAAATGATAACTATCCAAAAATCTAAACCCTCGAAGTAGAGCAAATATTTTTTCTAAGGTAAATGAAAACAGTACACTTGAATCA",
+       "Start": 3667,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 4,
+     "Start": 3394
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_1874_length_6607_cov_12.6043",
+   "Length": 6607,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 60.3269172013443,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1897_length_6546_cov_4.46736",
+   "Length": 6546,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 54.3098063710181,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_1936_length_6404_cov_4.52573",
+   "Length": 6404,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 47.8145695364238,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "AAAATAGGGAATAAAATGTATTGATAATATATGCCCCCCTATGG",
+     "DR_Length": 44,
+     "End": 5948,
+     "Evidence_Level": 1,
+     "Name": "NODE_2076_length_6040_cov_7.41569_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 43,
+       "End": 5827,
+       "Leader": 0,
+       "Sequence": "GAGAACAGGAACAGGGCCACACCTGGGGCGGTATGGAGCTGTAAAAGAAGCCTGTCCGGGAGCCTTGCAAGAGCCGCCCGGACAGGCTATAATAACAGTA",
+       "Start": 5728,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 5871,
+       "Sequence": "AAAATAGGGAATAAAATGTATTGATAATATATGCCCCCCTATGG",
+       "Start": 5828,
+       "Type": "DR"
+      },
+      {
+       "End": 5904,
+       "Sequence": "GGTGAAGGGGACAAGCTGAAATGGGTTTGTCGT",
+       "Start": 5872,
+       "Type": "Spacer"
+      },
+      {
+       "End": 5948,
+       "Sequence": "AAAATAGGGAATAAAATGTATTGATAATATATGCCCCCCTATGG",
+       "Start": 5905,
+       "Type": "DR"
+      },
+      {
+       "AT": 0,
+       "End": 6048,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": 5949,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 5828
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_2076_length_6040_cov_7.41569",
+   "Length": 6040,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 52.9628389688651,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_2109_length_5974_cov_6.25877",
+   "Length": 5974,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 55.1913568943417,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "GACAAAGCAGCTTTATATCGATACATTGAACGACGCAGAAGGAAC",
+     "DR_Length": 45,
+     "End": 780,
+     "Evidence_Level": 1,
+     "Name": "NODE_2370_length_5461_cov_4.60255_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 55,
+       "End": 648,
+       "Leader": 0,
+       "Sequence": "CTGATGACTATACGGCACTTCAAACAGCACTTACTAGATTGAGCGTTTGGGAAGGAACCATTAGTGGAAAAGTAGACACATGGGAAGCCGACATGGAAGT",
+       "Start": 549,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 693,
+       "Sequence": "GACAAAGCAGCTTTATATCGATACATTGAACGACGCAGAAGGAAC",
+       "Start": 649,
+       "Type": "DR"
+      },
+      {
+       "End": 735,
+       "Sequence": "CATTAGTGGAAAAGTAGACACGTGGGAAGCCGACATGGCAGC",
+       "Start": 694,
+       "Type": "Spacer"
+      },
+      {
+       "End": 780,
+       "Sequence": "GACAAAGCAGCTTTATATCGATACATTGAACGACGCAGAAGGAAC",
+       "Start": 736,
+       "Type": "DR"
+      },
+      {
+       "AT": 53,
+       "End": 880,
+       "Leader": 0,
+       "Sequence": "ATATTCACAGGAGCTTGTTGCATTGCAGGGACAGTTGGCAGATAAGGCCGATGAATCTGCTTTGCTTTCAGTTGAGCAACAGTTGGCAGAAACCGTGGAA",
+       "Start": 781,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 649
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_2370_length_5461_cov_4.60255",
+   "Length": 5461,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 57.8010279001468,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_2376_length_5448_cov_5.2212",
+   "Length": 5448,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 75.6671608598962,
+   "Cas": [
+    {
+     "End": 739,
+     "Genes": [
+      {
+       "End": 739,
+       "Orientation": "-",
+       "Start": 422,
+       "Sub_type": "Cas2_0_I-II-III"
+      }
+     ],
+     "Start": 422,
+     "Type": "General-Class1"
+    },
+    {
+     "End": 5171,
+     "Genes": [
+      {
+       "End": 5171,
+       "Orientation": "-",
+       "Start": 1668,
+       "Sub_type": "Cas9_0_II"
+      },
+      {
+       "End": 1491,
+       "Orientation": "-",
+       "Start": 745,
+       "Sub_type": "Cas1_0_II"
+      }
+     ],
+     "Start": 745,
+     "Type": "General-Class2"
+    }
+   ],
+   "CrisprCasMinimalDistance": 154,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 28.125,
+     "DR_Consensus": "ATTAGACCCCTACTCTAAAGCAAAATACGATACAAT",
+     "DR_Length": 36,
+     "End": 268,
+     "Evidence_Level": 1,
+     "Name": "NODE_2406_length_5396_cov_4.95863_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 0,
+       "End": 34,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": -65,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 70,
+       "Sequence": "ATTAGACCCCTACTCTAAAGCAAAATACGATACAAT",
+       "Start": 35,
+       "Type": "DR"
+      },
+      {
+       "End": 100,
+       "Sequence": "CTTTTAACAACATTTGACAAGCCTATATCT",
+       "Start": 71,
+       "Type": "Spacer"
+      },
+      {
+       "End": 136,
+       "Sequence": "ATTAGACCCCTACTCTAAAGCAAAATACGATACAAT",
+       "Start": 101,
+       "Type": "DR"
+      },
+      {
+       "End": 166,
+       "Sequence": "TGCAAAACCAAAAAGTTAAGAAAACAATTA",
+       "Start": 137,
+       "Type": "Spacer"
+      },
+      {
+       "End": 202,
+       "Sequence": "ATTAGACCCCTACTCTAAAGCAAAATACGATACAAT",
+       "Start": 167,
+       "Type": "DR"
+      },
+      {
+       "End": 232,
+       "Sequence": "TTAAACAATAAACTAAAAGATATTAATTCA",
+       "Start": 203,
+       "Type": "Spacer"
+      },
+      {
+       "End": 268,
+       "Sequence": "ATTAGACCCCTACTCTAAAGCAAAATACGATACAAT",
+       "Start": 233,
+       "Type": "DR"
+      },
+      {
+       "AT": 76,
+       "End": 368,
+       "Leader": 0,
+       "Sequence": "AGGGTTTTAATTAGTTTAAAAATTTTATTTAGATTTAAGTATAATCTAAATAAAATGCTAAATCGTGTTTTGCTTTGGGGTAGGTGGTTTAACAATTCTA",
+       "Start": 269,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 3,
+     "Start": 35
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_2406_length_5396_cov_4.95863",
+   "Length": 5396,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 72.5435816164818,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 73.216371506744,
+     "Conservation_Spacers": 50,
+     "DR_Consensus": "TTCCTGCTCCTTTAGATGATCCAT",
+     "DR_Length": 24,
+     "End": 798,
+     "Evidence_Level": 1,
+     "Name": "NODE_2653_length_5048_cov_3.63707_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 62,
+       "End": 654,
+       "Leader": 0,
+       "Sequence": "ACAATCTTCTTGATGAGGAAATGGTAAGTAGCGACAATTTCTGGATCTAACTCACGTTCCATGCCCTTGATTGTGAAATCGCTAATTTTTCCGATAGTTT",
+       "Start": 555,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 678,
+       "Sequence": "TGCCTGCTCCAAGGGAAGAACCAT",
+       "Start": 655,
+       "Type": "DR"
+      },
+      {
+       "End": 714,
+       "Sequence": "CACGAACTGTGTCACCTTTGACATTCAATATAGCTT",
+       "Start": 679,
+       "Type": "Spacer"
+      },
+      {
+       "End": 738,
+       "Sequence": "TTCCTGCTCCTTTAGATGATCCAT",
+       "Start": 715,
+       "Type": "DR"
+      },
+      {
+       "End": 774,
+       "Sequence": "CACGGATGATACCATCCTTTATATTTCCCAAAGAGC",
+       "Start": 739,
+       "Type": "Spacer"
+      },
+      {
+       "End": 798,
+       "Sequence": "TTCCTGCTCCTTTAGATGATCCAT",
+       "Start": 775,
+       "Type": "DR"
+      },
+      {
+       "AT": 64,
+       "End": 898,
+       "Leader": 0,
+       "Sequence": "TTCGAATGATTCCATCTTTGATATTTCCAAGTGCTTGACCACTACCAAGCGAATTTCCATCTCTTATAACACCATCTTTAAAATTTGCCATTTTGTCTCC",
+       "Start": 799,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 2,
+     "Start": 655
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_2653_length_5048_cov_3.63707",
+   "Length": 5048,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 62.6467017401862,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_2734_length_4942_cov_4.49117",
+   "Length": 4942,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 65.7448706512043,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_3128_length_4484_cov_4.38077",
+   "Length": 4484,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 55.0148503541238,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 80.7692307692308,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "TTGCTTATTCATTTGGTTATTCATTT",
+     "DR_Length": 26,
+     "End": 915,
+     "Evidence_Level": 1,
+     "Name": "NODE_3224_length_4377_cov_3.49318_1",
+     "Potential_Orientation": "-",
+     "Regions": [
+      {
+       "AT": 61,
+       "End": 823,
+       "Leader": 0,
+       "Sequence": "AAAAGCCGCAAAAGCGGCTTTTTTTGCCCTTATAAGTGTCAAACTATGATGGAAGGCTGTATTTATCCGTTTGAACGCTTTGAACGTCTTAAAAAGTGGA",
+       "Start": 724,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 849,
+       "Sequence": "AAGGTTATTCACTTGCTTATTCATTT",
+       "Start": 824,
+       "Type": "DR"
+      },
+      {
+       "End": 889,
+       "Sequence": "GGTTATTCATTTAAGCTATTACAAAAACGAAATGTTTTGA",
+       "Start": 850,
+       "Type": "Spacer"
+      },
+      {
+       "End": 915,
+       "Sequence": "TTGCTTATTCATTTGGTTATTCATTT",
+       "Start": 890,
+       "Type": "DR"
+      },
+      {
+       "AT": 74,
+       "End": 1015,
+       "Leader": 1,
+       "Sequence": "TTGTGCCTATTTTGTTCTAATAAAACGGGGAAATATCTTTTTTTTATTTGGTATTCATCGGTTTTTATAATATTGTAGGGGGTAAATTGTATATAGATAA",
+       "Start": 916,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 824
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_3224_length_4377_cov_3.49318",
+   "Length": 4377,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 54.1647168928404,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 95.6521739130435,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "TTGAAAGAAGGGAATGAGGTGGG",
+     "DR_Length": 23,
+     "End": 3690,
+     "Evidence_Level": 1,
+     "Name": "NODE_3329_length_4274_cov_4.52785_1",
+     "Potential_Orientation": "+",
+     "Regions": [
+      {
+       "AT": 59,
+       "End": 3609,
+       "Leader": 1,
+       "Sequence": "GCCTAAATTTGCCGCAAAGCAGATTACGTCTTGGTTGTATGATACAAAGGTGGAAACGATAGACGAAATGACCAATTTGTCATTAAAGCATCGCGAAGCA",
+       "Start": 3510,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 3632,
+       "Sequence": "TTGAAAGAAGGGAATGAGGTGGG",
+       "Start": 3610,
+       "Type": "DR"
+      },
+      {
+       "End": 3667,
+       "Sequence": "AGATGACCAATTTGTCATTAAAGCATCGCGAAGCG",
+       "Start": 3633,
+       "Type": "Spacer"
+      },
+      {
+       "End": 3690,
+       "Sequence": "TTGAAAGAAGGGTATGAGGTGGG",
+       "Start": 3668,
+       "Type": "DR"
+      },
+      {
+       "AT": 53,
+       "End": 3790,
+       "Leader": 0,
+       "Sequence": "GGCATCTGCCCCGGTGGAAGAAATGCGTTCGGTAGACGGTACGGTGAAATATCTTTTCCGTACACCGGCTCATAATTTTATTGAAGCGGTTTATATACCC",
+       "Start": 3691,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 3610
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_3329_length_4274_cov_4.52785",
+   "Length": 4274,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 45.2363981943454,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_3394_length_4209_cov_5.25061",
+   "Length": 4209,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 46.9108669108669,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 97.7777777777778,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "CTGCGCTCGATGCCGGGCTCAGGCCCGCTGCTGCAGGGCTTTGCA",
+     "DR_Length": 45,
+     "End": 2069,
+     "Evidence_Level": 1,
+     "Name": "NODE_3530_length_4095_cov_34.223_1",
+     "Potential_Orientation": "+",
+     "Regions": [
+      {
+       "AT": 51,
+       "End": 1920,
+       "Leader": 1,
+       "Sequence": "AAAACCAGCAGGCCCTACTACTTGGGCCAGCCTGTTCAATACGCTTGATGAGTAGTTCTCAAGATTTCAATCAGGGAGAGATTCCGGCTATGTCCGCGTA",
+       "Start": 1821,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 1965,
+       "Sequence": "CTGCGCTCGATGCCGGGCTCAGGCCCGCTGCTGCAGGGCTTTGCA",
+       "Start": 1921,
+       "Type": "DR"
+      },
+      {
+       "End": 2024,
+       "Sequence": "ACCCGTATAACGGGGAGTAAGTCACCCAAAGGGGGAGAGATTCCGGCTATGCCCGCGTG",
+       "Start": 1966,
+       "Type": "Spacer"
+      },
+      {
+       "End": 2069,
+       "Sequence": "CTGCGCTCGATGCCGGGCTCAGGCCCGCTGCTGCAAGGCTTTGCA",
+       "Start": 2025,
+       "Type": "DR"
+      },
+      {
+       "AT": 44,
+       "End": 2169,
+       "Leader": 0,
+       "Sequence": "GCCCGTATAACGGGGAGTAAGTCACCCAAAGGGGGAGAGATTCCGGCTATGCCAAACCCTAACTTTCCGATTCGGAAAGTTCTCCCTTGAGCCGCAGGCG",
+       "Start": 2070,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 1921
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_3530_length_4095_cov_34.223",
+   "Length": 4095,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 70.989010989011,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_3532_length_4095_cov_4.43952",
+   "Length": 4095,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 39.4736842105263,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_3571_length_4066_cov_2.78065",
+   "Length": 4066,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 45.4366543665437,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_3572_length_4065_cov_5.01549",
+   "Length": 4065,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 35.9101012595703,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 96.969696969697,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "CGCAGATGGCGGTCGTAGCCACCGTGGTGCAGG",
+     "DR_Length": 33,
+     "End": 1793,
+     "Evidence_Level": 1,
+     "Name": "NODE_3594_length_4049_cov_4.19097_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 31,
+       "End": 1667,
+       "Leader": 0,
+       "Sequence": "GCCGCCGGCCGGTTGGCTGACGCGCGTCTGCGCCGGGAAGTAGCGAGCAATGGCCGCGAGCATGGCGCTCTGCTGTTCTTCCAGGGCGTAGCGCAGCTTA",
+       "Start": 1568,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 1700,
+       "Sequence": "CGCAGATGGCGGTCGTAGCCACCGTGGTGCAGG",
+       "Start": 1668,
+       "Type": "DR"
+      },
+      {
+       "End": 1760,
+       "Sequence": "CAGGCGGCAATGGCCGCGAGCATGGCGCTCTGCTGTTCTTCCAGGGCGTAGCGCAGCTTG",
+       "Start": 1701,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1793,
+       "Sequence": "CGCAGATGGCGGTCGTAGCCACCGTGTTGCAGG",
+       "Start": 1761,
+       "Type": "DR"
+      },
+      {
+       "AT": 35,
+       "End": 1893,
+       "Leader": 0,
+       "Sequence": "TAATCGGCAATGGCGGCCTGGGCCGGCATCGAGGCGCACAGCGAGGTCATCAGTTTCAAGCGCTCGATCTTCTGCGCATAGCGTCCGGCGGCGACCCAGC",
+       "Start": 1794,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 1668
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_3594_length_4049_cov_4.19097",
+   "Length": 4049,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 70.5249679897567,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_3768_length_3905_cov_6.76416",
+   "Length": 3905,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 50.9256774885967,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_4053_length_3727_cov_3.135",
+   "Length": 3727,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 51.791004578508,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_4080_length_3713_cov_2.49693",
+   "Length": 3713,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 43.6158503026967,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_4214_length_3634_cov_3.71257",
+   "Length": 3634,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 69.239250275634,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_4228_length_3628_cov_3.06969",
+   "Length": 3628,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 39.0237175951462,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "CTGGATGCCAAGGGCCTGGCCATGTACGGCCA",
+     "DR_Length": 32,
+     "End": 3110,
+     "Evidence_Level": 1,
+     "Name": "NODE_4230_length_3626_cov_4.05716_1",
+     "Potential_Orientation": "-",
+     "Regions": [
+      {
+       "AT": 35,
+       "End": 3017,
+       "Leader": 0,
+       "Sequence": "GCCGGTCGGCGTGTTCAAGACCCACAGCAACGCCCCGCGCGTACTGATCGCCAACTCCAACCTGGTGCCGCACTGGGCCAGCTGGGAACACTTCAACGAG",
+       "Start": 2918,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 3049,
+       "Sequence": "CTGGATGCCAAGGGCCTGGCCATGTACGGCCA",
+       "Start": 3018,
+       "Type": "DR"
+      },
+      {
+       "End": 3078,
+       "Sequence": "ACTGGGCCACCTGGGAACACTTCAACGAA",
+       "Start": 3050,
+       "Type": "Spacer"
+      },
+      {
+       "End": 3110,
+       "Sequence": "CTGGATGCCAAGGGCCTGGCCATGTACGGCCA",
+       "Start": 3079,
+       "Type": "DR"
+      },
+      {
+       "AT": 42,
+       "End": 3210,
+       "Leader": 1,
+       "Sequence": "GATGACCGCCGGCAGCTGGATCTACATCGGCAGCCAGGGCATCGTCCAAGGCACCTATGAAACCTTCGTCGAAGCCGGTCGCCAACATTACAACAGCGAT",
+       "Start": 3111,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 3018
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_4230_length_3626_cov_4.05716",
+   "Length": 3626,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 50.7634687409968,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_4506_length_3471_cov_2.71441",
+   "Length": 3471,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 44.5348837209302,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "GCTTCAACCATTTCAGCCCTCTCAAGCTGCTC",
+     "DR_Length": 32,
+     "End": 1468,
+     "Evidence_Level": 1,
+     "Name": "NODE_4558_length_3440_cov_4.28524_1",
+     "Potential_Orientation": "+",
+     "Regions": [
+      {
+       "AT": 50,
+       "End": 1346,
+       "Leader": 1,
+       "Sequence": "CCTCAAATCGCGCTGACTAGGGCTTATGCTCCCAAAAATGTAGACACCTCGAGTGTCTACACCCTGTCTACATCGCCCCAAAAGTGTCTACATCCTTGCA",
+       "Start": 1247,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 1378,
+       "Sequence": "GCTTCAACCATTTCAGCCCTCTCAAGCTGCTC",
+       "Start": 1347,
+       "Type": "DR"
+      },
+      {
+       "End": 1436,
+       "Sequence": "CACGATCTCATGAGAGAGATGAAGCACAGGAAGCCGCTGGACCCCAGCAGCTACCTGT",
+       "Start": 1379,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1468,
+       "Sequence": "GCTTCAACCATTTCAGCCCTCTCAAGCTGCTC",
+       "Start": 1437,
+       "Type": "DR"
+      },
+      {
+       "AT": 35,
+       "End": 1568,
+       "Leader": 0,
+       "Sequence": "AGCTATCTCATGAGACAGATGACGCATCGGTAGCAGCAGGCTCCAGCTGGAGCGCGTCACCCGCTGGTGCCGTCGGTCCGCTGACCGGCACTGTCCGCTG",
+       "Start": 1469,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 1347
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_4558_length_3440_cov_4.28524",
+   "Length": 3440,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 44.853159299911,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_4677_length_3371_cov_2.53298",
+   "Length": 3371,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 67.3906575423981,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "CTTTTTATGAATTCTTTTCTTTCTTAGCTGTTCGTTTTCT",
+     "DR_Length": 40,
+     "End": 123,
+     "Evidence_Level": 1,
+     "Name": "NODE_4694_length_3361_cov_159.752_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 0,
+       "End": 0,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": -99,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 40,
+       "Sequence": "CTTTTTATGAATTCTTTTCTTTCTTAGCTGTTCGTTTTCT",
+       "Start": 1,
+       "Type": "DR"
+      },
+      {
+       "End": 83,
+       "Sequence": "CGATATTGAAACTAAAGTTTCAAATCTCGTGCTCACAGATTAG",
+       "Start": 41,
+       "Type": "Spacer"
+      },
+      {
+       "End": 123,
+       "Sequence": "CTTTTTATGAATTCTTTTCTTTCTTAGCTGTTCGTTTTCT",
+       "Start": 84,
+       "Type": "DR"
+      },
+      {
+       "AT": 63,
+       "End": 223,
+       "Leader": 0,
+       "Sequence": "AACTGTTGGGTCAAGTTCTCTTTTTCTTACACGAATAGAAACTGGAGTAACTTCAACAGACTCATCTTCTTCAATCCACTCTAAAGCATTTTCCAAAGAC",
+       "Start": 124,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 1
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_4694_length_3361_cov_159.752",
+   "Length": 3361,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 74.7744945567652,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_5020_length_3215_cov_41.1519",
+   "Length": 3215,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 55.1404853128991,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "TCTTTTTATTTACGATTTGACGATT",
+     "DR_Length": 25,
+     "End": 1064,
+     "Evidence_Level": 1,
+     "Name": "NODE_5224_length_3132_cov_2.57937_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 64,
+       "End": 976,
+       "Leader": 0,
+       "Sequence": "ACAACTTTCTTTGCAACTTCTGCATCCTTATGATAAAAGACGGGCACCATTCCGGTAGAACCAATCTTATTCAATACTGCGATTTTATCAAATTTACTCA",
+       "Start": 877,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 1001,
+       "Sequence": "TCTTTTTATTTACGATTTGACGATT",
+       "Start": 977,
+       "Type": "DR"
+      },
+      {
+       "End": 1039,
+       "Sequence": "TACGATTTACGATTAATATTACTTTACTTTATATCTAT",
+       "Start": 1002,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1064,
+       "Sequence": "TCTTTTTATTTACGATTTGACGATT",
+       "Start": 1040,
+       "Type": "DR"
+      },
+      {
+       "AT": 64,
+       "End": 1164,
+       "Leader": 0,
+       "Sequence": "CAAACTTCCTTTGCTAACCGATTTCTTGTAGTGACAATAGAACTCACTATTATTTTATACAATTCATGCGCCTCTTGTTGCAACCCAAGCAGTTTATTAG",
+       "Start": 1065,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 977
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_5224_length_3132_cov_2.57937",
+   "Length": 3132,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 45.9285484390087,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_5295_length_3107_cov_3.2104",
+   "Length": 3107,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 76.1688311688312,
+   "Cas": [
+    {
+     "End": 3072,
+     "Genes": [
+      {
+       "End": 3072,
+       "Orientation": "-",
+       "Start": 838,
+       "Sub_type": "Cas1_0_I-II-III"
+      },
+      {
+       "End": 838,
+       "Orientation": "-",
+       "Start": 563,
+       "Sub_type": "Cas2_0_I-II-III-V"
+      }
+     ],
+     "Start": 563,
+     "Type": "General-Class1"
+    }
+   ],
+   "CrisprCasMinimalDistance": 404,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 0,
+     "Conservation_Spacers": 0,
+     "DR_Consensus": "CRT results",
+     "DR_Length": 37,
+     "End": 159,
+     "Evidence_Level": 1,
+     "Name": "NODE_5363_length_3080_cov_6.20488_crispr_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "End": 47,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": 47,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 84,
+       "Sequence": "GTCTTAATCCCCTTAAATCGGGTCATATGTATTGAAT",
+       "Start": 47,
+       "Type": "DR"
+      },
+      {
+       "End": 123,
+       "Sequence": "CTGGTTGGATTAGTGAAGAGGATGATGGTTTTGCAATCA",
+       "Start": 84,
+       "Type": "Spacer"
+      },
+      {
+       "End": 160,
+       "Sequence": "GTCTTAATCCCCTTAAATCGGGTCATATGTATTGAAT",
+       "Start": 123,
+       "Type": "DR"
+      },
+      {
+       "End": 159,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": 159,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "CRT results",
+     "Spacers": 1,
+     "Start": 47
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_5363_length_3080_cov_6.20488",
+   "Length": 3080,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 35.7190635451505,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_5585_length_2990_cov_4.15927",
+   "Length": 2990,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 69.0958164642375,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_5665_length_2964_cov_4.44554",
+   "Length": 2964,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 58.3994480855467,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_5854_length_2899_cov_1.85678",
+   "Length": 2899,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 49.1718426501035,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_5857_length_2898_cov_2.90617",
+   "Length": 2898,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 48.4996510816469,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_5950_length_2866_cov_7.52683",
+   "Length": 2866,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 73.3670155178636,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_6281_length_2771_cov_4.80219",
+   "Length": 2771,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 41.0491562729274,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_6420_length_2726_cov_4.88457",
+   "Length": 2726,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 49.1917707567965,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_6437_length_2722_cov_18.0528",
+   "Length": 2722,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 53.7267080745342,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_7054_length_2576_cov_5.25847",
+   "Length": 2576,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 52.1132376395534,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_7349_length_2508_cov_4.37379",
+   "Length": 2508,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 70.6096083972547,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_7471_length_2477_cov_10.8179",
+   "Length": 2477,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 68.5320356853204,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_7515_length_2466_cov_9.90381",
+   "Length": 2466,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 73.7582781456954,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_7755_length_2416_cov_6.41197",
+   "Length": 2416,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 51.3047138047138,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "TTTCCGGCTCTCAGCTTCAGGTTGGCGTT",
+     "DR_Length": 29,
+     "End": 1521,
+     "Evidence_Level": 1,
+     "Name": "NODE_7944_length_2376_cov_4.41485_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 43,
+       "End": 1426,
+       "Leader": 0,
+       "Sequence": "GGTCCCGGCATCAATGCAGGCACGGAGGAAACTGATGCTGTGCTGAGGGACACAAGTGGGGTCATTGGCGCCAATGATCACTTCCAGGCGTCCTTTCAGA",
+       "Start": 1327,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 1455,
+       "Sequence": "TTTCCGGCTCTCAGCTTCAGGTTGGCGTT",
+       "Start": 1427,
+       "Type": "DR"
+      },
+      {
+       "End": 1492,
+       "Sequence": "ATTGGCGCCAATGATCACTTCCAAGCGTCCTTTCAGG",
+       "Start": 1456,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1521,
+       "Sequence": "TTTCCGGCTCTCAGCTTCAGGTTGGCGTT",
+       "Start": 1493,
+       "Type": "DR"
+      },
+      {
+       "AT": 45,
+       "End": 1621,
+       "Leader": 0,
+       "Sequence": "CTTGTAGCCTTCGGGGTTGGTTTGCGGAGTATCCATGTAGCGTTCGCCGTACATTACTTCGTAGTAAGCCCAGTCGATGACAGGACCGCCGGCTACTCCT",
+       "Start": 1522,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 1427
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_7944_length_2376_cov_4.41485",
+   "Length": 2376,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 59.8906107566089,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 97.6190476190476,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "TATCGCTGCGCCATGCCATAACTGGCCATTTTGCCGTGATGT",
+     "DR_Length": 42,
+     "End": 1993,
+     "Evidence_Level": 1,
+     "Name": "NODE_8946_length_2194_cov_3.82342_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 58,
+       "End": 1873,
+       "Leader": 0,
+       "Sequence": "ACATCATGAAACTGATTAAATTTATTGCTGCTGCCGCTTTAGTTGCTTCAACTTTTTTAATCTCGGGCGGCCAGGCCGTATCTTCCAGCACTATACAAAC",
+       "Start": 1774,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 1915,
+       "Sequence": "TATCGCTGCGCCATGCCATAACTGGCCATTTTGCCGTGATGT",
+       "Start": 1874,
+       "Type": "DR"
+      },
+      {
+       "End": 1951,
+       "Sequence": "GGATATCGTTGACCAAGCGACAGAAAAACAACAGTT",
+       "Start": 1916,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1993,
+       "Sequence": "TATCGCCGCGCCATGCCATAACTGGCCATTTTGCCGTGATGT",
+       "Start": 1952,
+       "Type": "DR"
+      },
+      {
+       "AT": 51,
+       "End": 2093,
+       "Leader": 0,
+       "Sequence": "AGACATCATGGATCCGGCCATTGAGCGGGCTCAACAGTTGCAAGCTAAAGCCATTAGCAAGTCAGCTTAACCAGACCGCTCTACTTTTCGCTTGAATTGG",
+       "Start": 1994,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 1874
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_8946_length_2194_cov_3.82342",
+   "Length": 2194,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 45.5295735900963,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_9033_length_2181_cov_3.86076",
+   "Length": 2181,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 70.6598034627983,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_9336_length_2137_cov_2.19602",
+   "Length": 2137,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 48.2612781954887,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 96.6666666666667,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "CAAGAGGTCGTAAGAGGGAGCACTCGAAAT",
+     "DR_Length": 30,
+     "End": 1534,
+     "Evidence_Level": 1,
+     "Name": "NODE_9402_length_2128_cov_2.72064_1",
+     "Potential_Orientation": "-",
+     "Regions": [
+      {
+       "AT": 49,
+       "End": 1424,
+       "Leader": 0,
+       "Sequence": "CAGCATACAGGAATTATGCCGCCCCGCATCTTGACGCGGGACGGCATTTTTGCTATACTAATTTAGTATCCGGCAGGAACCCAGAACATGGAGCATTCCC",
+       "Start": 1325,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 1454,
+       "Sequence": "CAAGAGGTCGTAAGAGGGAGCACTCGAAAT",
+       "Start": 1425,
+       "Type": "DR"
+      },
+      {
+       "End": 1504,
+       "Sequence": "CACGCCCTGCGGGAAGTTCCTTGCAACAAAATTCAATATGCAGATGTACT",
+       "Start": 1455,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1534,
+       "Sequence": "CAAGTGGTCGTAAGAGGGAGCACTCGAAAT",
+       "Start": 1505,
+       "Type": "DR"
+      },
+      {
+       "AT": 51,
+       "End": 1634,
+       "Leader": 1,
+       "Sequence": "GCTTTAGGACAGGAGACTGTCGCGTGGGTTCGACTCCCACCATCTGCGCCATATCCGTCGTAGAATCGAAAGATTTTACGACGGATATTTTTGTTTACGG",
+       "Start": 1535,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 1425
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_9402_length_2128_cov_2.72064",
+   "Length": 2128,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 73.9491691104594,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_9980_length_2046_cov_6.91558",
+   "Length": 2046,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 65.6204021579206,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_10039_length_2039_cov_3.68253",
+   "Length": 2039,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 51.0585918266864,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_10107_length_2031_cov_2.57405",
+   "Length": 2031,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 73.1869254341164,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_10711_length_1958_cov_2.5396",
+   "Length": 1958,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 74.0343347639485,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_11578_length_1864_cov_3.95107",
+   "Length": 1864,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 42.5726587728741,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_11635_length_1858_cov_2.76661",
+   "Length": 1858,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 77.1691973969631,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "TAAGCCGAATTTTTAACAGCTTTTTTTTGC",
+     "DR_Length": 30,
+     "End": 1139,
+     "Evidence_Level": 1,
+     "Name": "NODE_11783_length_1844_cov_21.1013_1",
+     "Potential_Orientation": "-",
+     "Regions": [
+      {
+       "AT": 83,
+       "End": 1049,
+       "Leader": 0,
+       "Sequence": "CCTTAATATTTTTAAGCATTATTTAAGCTATAAATTAAGAAATGTCGATTTTATAGTACTTTGTAAAAAATATGATATAGATAAAATAATTTTTTTGTAC",
+       "Start": 950,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 1079,
+       "Sequence": "TAAGCCGAATTTTTAACAGCTTTTTTTTGC",
+       "Start": 1050,
+       "Type": "DR"
+      },
+      {
+       "End": 1109,
+       "Sequence": "CATATTGCAATTGCTATACTAGTATTTAAT",
+       "Start": 1080,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1139,
+       "Sequence": "TAAGCCGAATTTTTAACAGCTTTTTTTTGC",
+       "Start": 1110,
+       "Type": "DR"
+      },
+      {
+       "AT": 85,
+       "End": 1239,
+       "Leader": 1,
+       "Sequence": "TTTTTAAAAACCATCATTTTTTGGTTTTTTTACAAAAAGTGAAAAAATAGCATAAATGCTTTAAGTTTTTAAATGTTAAAAAAATCATAAAAAAAATTAA",
+       "Start": 1140,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 1050
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_11783_length_1844_cov_21.1013",
+   "Length": 1844,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 74.3575724439584,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_11911_length_1829_cov_3.2973",
+   "Length": 1829,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 39.2231947483589,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_11924_length_1828_cov_2.63668",
+   "Length": 1828,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 62.5824175824176,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_12010_length_1820_cov_1.95393",
+   "Length": 1820,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 63.3810572687225,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_12041_length_1816_cov_2.55773",
+   "Length": 1816,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 54.178674351585,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_12943_length_1735_cov_3.49067",
+   "Length": 1735,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 67.5722543352601,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "CATCTACCATTGCATTAGGTATATCTTCCA",
+     "DR_Length": 30,
+     "End": 1080,
+     "Evidence_Level": 1,
+     "Name": "NODE_13009_length_1730_cov_3.81971_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 65,
+       "End": 963,
+       "Leader": 0,
+       "Sequence": "AGTCCTAGACTTGCTATCGAAACTGTAGCCATTTATTTCCTTTAAAGTTCTTGTGCTATAATATTTCTCCCGAGAGAATCTAAAAGAAACCTTCCATTTC",
+       "Start": 864,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 993,
+       "Sequence": "CATCTACCATTGCATTAGGTATATCTTCCA",
+       "Start": 964,
+       "Type": "DR"
+      },
+      {
+       "End": 1050,
+       "Sequence": "AAAGTTCTTGTGCTATAATGTTTCTCCCAAAAGAATCTAAAAGAAACCTTCCGTAAT",
+       "Start": 994,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1080,
+       "Sequence": "CATCTACCATTGCATTAGGTATATCTTCCA",
+       "Start": 1051,
+       "Type": "DR"
+      },
+      {
+       "AT": 60,
+       "End": 1180,
+       "Leader": 0,
+       "Sequence": "TAGGTATATCAGGGTCAATTGGAGGTGGAGGTATTACAATAAATACCGACTCTACTCCTCCTGCTGAACCTAACTTAAGATATCCTCCCATAGAAAGTTT",
+       "Start": 1081,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 964
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_13009_length_1730_cov_3.81971",
+   "Length": 1730,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 45.8533653846154,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_13829_length_1664_cov_10.9102",
+   "Length": 1664,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 71.0315009264978,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_14428_length_1619_cov_8.46381",
+   "Length": 1619,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 74.7836835599506,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_14439_length_1618_cov_5.40174",
+   "Length": 1618,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 71.9165085388994,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_14990_length_1581_cov_3.61073",
+   "Length": 1581,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 58.5288522511097,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "AAAAGTATTCGTAAAAAAAACATGCCCTATTATAGAGGGAAAGCAATAATTT",
+     "DR_Length": 52,
+     "End": 270,
+     "Evidence_Level": 1,
+     "Name": "NODE_15060_length_1577_cov_2.07241_1",
+     "Potential_Orientation": "-",
+     "Regions": [
+      {
+       "AT": 52,
+       "End": 107,
+       "Leader": 0,
+       "Sequence": "AGATGATATGAGCATCTGTGAGTGCGTATCCCTTGCTCTGTCAGAGCACGTTTAAAACTGAAAGACCATGGATGGGCAGCAGATGATGCGGATGTAGCCT",
+       "Start": 8,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 159,
+       "Sequence": "AAAAGTATTCGTAAAAAAAACATGCCCTATTATAGAGGGAAAGCAATAATTT",
+       "Start": 108,
+       "Type": "DR"
+      },
+      {
+       "End": 218,
+       "Sequence": "AAGCAATTAGATTATAGTCGCGAGCGATCGTGAAGGCTGGACCTCTATTCTTTTTGATC",
+       "Start": 160,
+       "Type": "Spacer"
+      },
+      {
+       "End": 270,
+       "Sequence": "AAAAGTATTCGTAAAAAAAACATGCCCTATTATAGAGGGAAAGCAATAATTT",
+       "Start": 219,
+       "Type": "DR"
+      },
+      {
+       "AT": 66,
+       "End": 370,
+       "Leader": 1,
+       "Sequence": "GCTGATGATAGTTCACAAGACTATTGACCCTCTATTATTTTTGTAAACATATTAAGGAGGAGAATTAACATGGCAAGAGTAGTAGAGTTAAAGATCGATG",
+       "Start": 271,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 108
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_15060_length_1577_cov_2.07241",
+   "Length": 1577,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 50.2247912652537,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_15361_length_1557_cov_2.28322",
+   "Length": 1557,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 44.3298969072165,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_15439_length_1552_cov_2.57123",
+   "Length": 1552,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 73.975276512687,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_15668_length_1537_cov_15.4475",
+   "Length": 1537,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 62.0052770448549,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 84.1829583405449,
+     "Conservation_Spacers": 16.2162162162162,
+     "DR_Consensus": "TGTGACCTGCCGAATAGGCAGCTGAAAATT",
+     "DR_Length": 30,
+     "End": 413,
+     "Evidence_Level": 1,
+     "Name": "NODE_16009_length_1516_cov_1.95032_1",
+     "Potential_Orientation": "+",
+     "Regions": [
+      {
+       "AT": 79,
+       "End": 203,
+       "Leader": 1,
+       "Sequence": "TTAATTTTAAAGCCAATTATTTGTTAGAGAAATTATATGGTTATTTTCTGAGTTTTGGCTCTAGTAATTGATTTTATATAGGTTTATTTTATAAGTGTAT",
+       "Start": 104,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 233,
+       "Sequence": "AGTGACCCGCCGAATAGGCAGTTGAAAATT",
+       "Start": 204,
+       "Type": "DR"
+      },
+      {
+       "End": 263,
+       "Sequence": "ATTACAAATAAAGTTATACAAAACCCTCGA",
+       "Start": 234,
+       "Type": "Spacer"
+      },
+      {
+       "End": 293,
+       "Sequence": "TGTGACCTGCCGAATAGGCAGCTGAAAATT",
+       "Start": 264,
+       "Type": "DR"
+      },
+      {
+       "End": 323,
+       "Sequence": "AATGCTGTATGCATGGGCGATGTCAGCAAG",
+       "Start": 294,
+       "Type": "Spacer"
+      },
+      {
+       "End": 353,
+       "Sequence": "TGTGACCTGCCGAATAGGCAGCTGAAAATT",
+       "Start": 324,
+       "Type": "DR"
+      },
+      {
+       "End": 383,
+       "Sequence": "TAGTGAACAGTGTAAAATCCTTTATACCAA",
+       "Start": 354,
+       "Type": "Spacer"
+      },
+      {
+       "End": 413,
+       "Sequence": "GGTGACCTGCCGAATAGGCAGCTGATAATA",
+       "Start": 384,
+       "Type": "DR"
+      },
+      {
+       "AT": 60,
+       "End": 513,
+       "Leader": 0,
+       "Sequence": "AAAACAATCGTTTCGACGTTTATGTTAATACAGCAAACTGCCGGATAGGCAGTAAAAGCCTCTTCTTACCCAATGTGGGAAGAGGCTTTTTATTGGCAAT",
+       "Start": 414,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 3,
+     "Start": 204
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_16009_length_1516_cov_1.95032",
+   "Length": 1516,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 69.5417789757412,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_16528_length_1484_cov_6.27487",
+   "Length": 1484,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 73.5576923076923,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 29.7297297297297,
+     "DR_Consensus": "CTAAAGATATATCTAAATTTCTACTATTGTAGAT",
+     "DR_Length": 34,
+     "End": 1428,
+     "Evidence_Level": 1,
+     "Name": "NODE_17014_length_1456_cov_2.07825_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 80,
+       "End": 1270,
+       "Leader": 0,
+       "Sequence": "TTGTTAAAAAAATATAGACTTTGCAAGAGCAAATAGGCTTTTTTAATATGATTTAGATATAATCTGTTTCATAATTACTCAAAAAGTATATTTTATCTAT",
+       "Start": 1171,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 1304,
+       "Sequence": "CTAAAGATATATCTAAATTTCTACTATTGTAGAT",
+       "Start": 1271,
+       "Type": "DR"
+      },
+      {
+       "End": 1330,
+       "Sequence": "ATGATGTAGCACCTATTGTGGATGAG",
+       "Start": 1305,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1364,
+       "Sequence": "CTAAAGATATATCTAAATTTCTACTATTGTAGAT",
+       "Start": 1331,
+       "Type": "DR"
+      },
+      {
+       "End": 1394,
+       "Sequence": "AACACCTAATATATTTAAAAGAACATCGGT",
+       "Start": 1365,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1428,
+       "Sequence": "CTAAAGATATATCTAAATTTCTACTATTGTAGAT",
+       "Start": 1395,
+       "Type": "DR"
+      },
+      {
+       "AT": 0,
+       "End": 1528,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": 1429,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 2,
+     "Start": 1271
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_17014_length_1456_cov_2.07825",
+   "Length": 1456,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 77.2727272727273,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_17444_length_1430_cov_7.60246",
+   "Length": 1430,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 52.027972027972,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "TTTGTCGATCTTAAAAGATCGACCTACA",
+     "DR_Length": 28,
+     "End": 775,
+     "Evidence_Level": 1,
+     "Name": "NODE_17454_length_1430_cov_2.14889_1",
+     "Potential_Orientation": "+",
+     "Regions": [
+      {
+       "AT": 56,
+       "End": 662,
+       "Leader": 1,
+       "Sequence": "AACTGCGGAAAATGACTATTTTGCAGGAAATAAATGGCTTCAAAATGGGCAGATTTGCCTGCCCATAAATGGCCGACGATAACCATCGCGCAAATCTGCA",
+       "Start": 563,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 690,
+       "Sequence": "TTTGTCGATCTTAAAAGATCGACCTACA",
+       "Start": 663,
+       "Type": "DR"
+      },
+      {
+       "End": 747,
+       "Sequence": "TCAAACCGTAGGTCAACCATTTATGGTCGACAACAACAACCATCGCACAAAATCGCC",
+       "Start": 691,
+       "Type": "Spacer"
+      },
+      {
+       "End": 775,
+       "Sequence": "TTTGTCGATCTTAAAAGATCGACCTACA",
+       "Start": 748,
+       "Type": "DR"
+      },
+      {
+       "AT": 52,
+       "End": 875,
+       "Leader": 0,
+       "Sequence": "AAAATCGGCCTACAGCAAACCGTAGGTCGGTCATTTATGGCCGACAAATTATGGCCGACAAAGACAAACCCACTGCAGAGCTTACGAAGAACAGCTGATC",
+       "Start": 776,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 663
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_17454_length_1430_cov_2.14889",
+   "Length": 1430,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 47.125621007807,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_17847_length_1409_cov_4.31435",
+   "Length": 1409,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 59.9288256227758,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_17959_length_1405_cov_1.77543",
+   "Length": 1405,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 69.7254335260116,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_18372_length_1384_cov_3.56404",
+   "Length": 1384,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 67.1303074670571,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_18735_length_1366_cov_3.12914",
+   "Length": 1366,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 79.0714812085483,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_18920_length_1357_cov_5.02439",
+   "Length": 1357,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 73.0941704035874,
+   "Cas": [
+    {
+     "End": 692,
+     "Genes": [
+      {
+       "End": 692,
+       "Orientation": "-",
+       "Start": 306,
+       "Sub_type": "Cas2_0_I-II-III"
+      }
+     ],
+     "Start": 306,
+     "Type": "General-Class1"
+    },
+    {
+     "End": 1336,
+     "Genes": [
+      {
+       "End": 1336,
+       "Orientation": "-",
+       "Start": 692,
+       "Sub_type": "Cas1_0_II"
+      }
+     ],
+     "Start": 692,
+     "Type": "General-Class2"
+    }
+   ],
+   "CrisprCasMinimalDistance": 47,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 93.4220692611422,
+     "Conservation_Spacers": 18.4210526315789,
+     "DR_Consensus": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAATT",
+     "DR_Length": 37,
+     "End": 259,
+     "Evidence_Level": 1,
+     "Name": "NODE_19305_length_1338_cov_4.04624_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 0,
+       "End": 25,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": -74,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 62,
+       "Sequence": "GTTATAATCTACTCTCAATTCCCCATTTGATATAATT",
+       "Start": 26,
+       "Type": "DR"
+      },
+      {
+       "End": 91,
+       "Sequence": "TTATCTCGTAATCTTCCAATAAATTAAAT",
+       "Start": 63,
+       "Type": "Spacer"
+      },
+      {
+       "End": 128,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAATC",
+       "Start": 92,
+       "Type": "DR"
+      },
+      {
+       "End": 156,
+       "Sequence": "TACTTGTACTGAATGTAAAAAACCTTTT",
+       "Start": 129,
+       "Type": "Spacer"
+      },
+      {
+       "End": 193,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAATT",
+       "Start": 157,
+       "Type": "DR"
+      },
+      {
+       "End": 222,
+       "Sequence": "CGTTCATTGATTCATATACTGCTGTTACA",
+       "Start": 194,
+       "Type": "Spacer"
+      },
+      {
+       "End": 259,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAATT",
+       "Start": 223,
+       "Type": "DR"
+      },
+      {
+       "AT": 70,
+       "End": 359,
+       "Leader": 0,
+       "Sequence": "GAGTAGATTAAGACCCTTATTTCAGTGCTTTTATAGAGATTTTGTATCAAAAAATAAGCACTGTTTGAGTCTGTTTTTCTATCTTTTTCTCTGGTTTTTC",
+       "Start": 260,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 3,
+     "Start": 26
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_19305_length_1338_cov_4.04624",
+   "Length": 1338,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 63.9491398653702,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_19346_length_1337_cov_2.21405",
+   "Length": 1337,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 73.8275340393343,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_19680_length_1322_cov_4.65021",
+   "Length": 1322,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 52.8430629264594,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_19764_length_1319_cov_3.83138",
+   "Length": 1319,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 69.4592536176695,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_19900_length_1313_cov_9.31788",
+   "Length": 1313,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 47.1087124132614,
+   "Cas": [
+    {
+     "End": 1287,
+     "Genes": [
+      {
+       "End": 1287,
+       "Orientation": "-",
+       "Start": 601,
+       "Sub_type": "Cas1_0_IC"
+      },
+      {
+       "End": 591,
+       "Orientation": "-",
+       "Start": 301,
+       "Sub_type": "Cas2_0_I-II-III-V"
+      }
+     ],
+     "Start": 301,
+     "Type": "General-Class1"
+    }
+   ],
+   "CrisprCasMinimalDistance": 171,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "TATTTCTATCCACGCTCTCCTTGCGGAGAGCGAC",
+     "DR_Length": 34,
+     "End": 130,
+     "Evidence_Level": 1,
+     "Name": "NODE_20313_length_1297_cov_1.74444_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 0,
+       "End": 29,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": -70,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 63,
+       "Sequence": "TATTTCTATCCACGCTCTCCTTGCGGAGAGCGAC",
+       "Start": 30,
+       "Type": "DR"
+      },
+      {
+       "End": 96,
+       "Sequence": "CATCAGACCGCCGAACTTATCATCAATATCGGA",
+       "Start": 64,
+       "Type": "Spacer"
+      },
+      {
+       "End": 130,
+       "Sequence": "TATTTCTATCCACGCTCTCCTTGCGGAGAGCGAC",
+       "Start": 97,
+       "Type": "DR"
+      },
+      {
+       "AT": 59,
+       "End": 230,
+       "Leader": 0,
+       "Sequence": "AGCAAAAGTGCACAAAACAGTGGGGCACTTTTGCGCATATGAAACAAATTTTATGGAGATTGCATCTTCATGCTGACAGGCAAGGCTGTATTTTACCCTT",
+       "Start": 131,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 30
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_20313_length_1297_cov_1.74444",
+   "Length": 1297,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 54.3981481481482,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_20318_length_1296_cov_4.32763",
+   "Length": 1296,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 72.9311678267595,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_20380_length_1293_cov_5.36878",
+   "Length": 1293,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 62.0986687548943,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_20792_length_1277_cov_3.15304",
+   "Length": 1277,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 72.4193548387097,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 98.2803142824982,
+     "Conservation_Spacers": 0,
+     "DR_Consensus": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+     "DR_Length": 36,
+     "End": 1201,
+     "Evidence_Level": 4,
+     "Name": "NODE_21757_length_1240_cov_1.87781_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 0,
+       "End": 44,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": -55,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 80,
+       "Sequence": "GTTTTAATCTACTCTCAAATTCCCATTTGATATAAT",
+       "Start": 45,
+       "Type": "DR"
+      },
+      {
+       "End": 110,
+       "Sequence": "AAGGGTATTTTACAGGAGTTATAATACCAA",
+       "Start": 81,
+       "Type": "Spacer"
+      },
+      {
+       "End": 146,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 111,
+       "Type": "DR"
+      },
+      {
+       "End": 176,
+       "Sequence": "AGGATCAGATTTTTTATTTATTAAATCAAT",
+       "Start": 147,
+       "Type": "Spacer"
+      },
+      {
+       "End": 212,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 177,
+       "Type": "DR"
+      },
+      {
+       "End": 242,
+       "Sequence": "AAAATCTGATATTAGAGTTGTAATTCCTTG",
+       "Start": 213,
+       "Type": "Spacer"
+      },
+      {
+       "End": 278,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 243,
+       "Type": "DR"
+      },
+      {
+       "End": 308,
+       "Sequence": "AGTTGCTAGTTTCAAAGCTTCAGCATTCGC",
+       "Start": 279,
+       "Type": "Spacer"
+      },
+      {
+       "End": 344,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 309,
+       "Type": "DR"
+      },
+      {
+       "End": 374,
+       "Sequence": "TCCTATCCATAATAATACTTTGGTCTGTTG",
+       "Start": 345,
+       "Type": "Spacer"
+      },
+      {
+       "End": 410,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTGGATATAAT",
+       "Start": 375,
+       "Type": "DR"
+      },
+      {
+       "End": 439,
+       "Sequence": "TTCCATTATCCTTAATAGAAATATCTAAT",
+       "Start": 411,
+       "Type": "Spacer"
+      },
+      {
+       "End": 475,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 440,
+       "Type": "DR"
+      },
+      {
+       "End": 505,
+       "Sequence": "TTTTTAAAAAATGATAACAAACAATTCTAT",
+       "Start": 476,
+       "Type": "Spacer"
+      },
+      {
+       "End": 541,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 506,
+       "Type": "DR"
+      },
+      {
+       "End": 571,
+       "Sequence": "CGGAAGCAACTTTTTTAAATATTACTTCAT",
+       "Start": 542,
+       "Type": "Spacer"
+      },
+      {
+       "End": 607,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 572,
+       "Type": "DR"
+      },
+      {
+       "End": 637,
+       "Sequence": "GTTGAGGGAATTGTAGGTCATAACAGTAGA",
+       "Start": 608,
+       "Type": "Spacer"
+      },
+      {
+       "End": 673,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 638,
+       "Type": "DR"
+      },
+      {
+       "End": 703,
+       "Sequence": "AAGTAGTTTTTTCAAATAGTTTAATTATCT",
+       "Start": 674,
+       "Type": "Spacer"
+      },
+      {
+       "End": 739,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 704,
+       "Type": "DR"
+      },
+      {
+       "End": 769,
+       "Sequence": "AAGTAGTTTTTTCAAATAGTTTAATTATCT",
+       "Start": 740,
+       "Type": "Spacer"
+      },
+      {
+       "End": 805,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 770,
+       "Type": "DR"
+      },
+      {
+       "End": 835,
+       "Sequence": "TTTTTCCAATAATACTTCCAATAGTTGATG",
+       "Start": 806,
+       "Type": "Spacer"
+      },
+      {
+       "End": 871,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 836,
+       "Type": "DR"
+      },
+      {
+       "End": 901,
+       "Sequence": "AAAGTTGTTGATTTATAGAAGATATAGCGG",
+       "Start": 872,
+       "Type": "Spacer"
+      },
+      {
+       "End": 937,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 902,
+       "Type": "DR"
+      },
+      {
+       "End": 967,
+       "Sequence": "CAAATTCACAAGCAAATACTATTTCATGCT",
+       "Start": 938,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1003,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 968,
+       "Type": "DR"
+      },
+      {
+       "End": 1033,
+       "Sequence": "TAATGTTGGTGAGTTAACCAATAGAGGTAG",
+       "Start": 1004,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1069,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1034,
+       "Type": "DR"
+      },
+      {
+       "End": 1099,
+       "Sequence": "ATAAAACAAAAGCAGTAATTTTAGAATTAA",
+       "Start": 1070,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1135,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1100,
+       "Type": "DR"
+      },
+      {
+       "End": 1165,
+       "Sequence": "TTGTGAAGGTATAATATCTCCATCACCAAC",
+       "Start": 1136,
+       "Type": "Spacer"
+      },
+      {
+       "End": 1201,
+       "Sequence": "GTTTTAATCTACTCTCAAATCCCCATTTGATATAAT",
+       "Start": 1166,
+       "Type": "DR"
+      },
+      {
+       "AT": 0,
+       "End": 1301,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": 1202,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 17,
+     "Start": 45
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_21757_length_1240_cov_1.87781",
+   "Length": 1240,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 54.8971193415638,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_22455_length_1215_cov_3.33824",
+   "Length": 1215,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 38.8059701492537,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_22734_length_1206_cov_4.27618",
+   "Length": 1206,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 33.9210747271201,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_23256_length_1191_cov_4.08365",
+   "Length": 1191,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 56.8123393316195,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_24050_length_1167_cov_2.03942",
+   "Length": 1167,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 39.8756660746004,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_25529_length_1126_cov_2.97397",
+   "Length": 1126,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 40.2309058614565,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_25534_length_1126_cov_2.85185",
+   "Length": 1126,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 71.9567177637511,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 94.5660616162603,
+     "Conservation_Spacers": 0,
+     "DR_Consensus": "ATTATATCAAATGGGGATTTGAGAGTAGATTAAAAC",
+     "DR_Length": 36,
+     "End": 870,
+     "Evidence_Level": 4,
+     "Name": "NODE_26178_length_1109_cov_8.91446_1",
+     "Potential_Orientation": "ND",
+     "Regions": [
+      {
+       "AT": 0,
+       "End": 48,
+       "Leader": 0,
+       "Sequence": "UNKNOWN",
+       "Start": -51,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 84,
+       "Sequence": "ATTATAGTAAATGGGAATTGGAGAGTAGATTAAAAC",
+       "Start": 49,
+       "Type": "DR"
+      },
+      {
+       "End": 113,
+       "Sequence": "ACGAAAGATTAGGGGATAGTAATTGGGAA",
+       "Start": 85,
+       "Type": "Spacer"
+      },
+      {
+       "End": 149,
+       "Sequence": "ATTATATCAAATGGGGATTTGAGAGTAGATTAAAAC",
+       "Start": 114,
+       "Type": "DR"
+      },
+      {
+       "End": 178,
+       "Sequence": "AGAGTGTATTTGTTAATATACCATTGCAT",
+       "Start": 150,
+       "Type": "Spacer"
+      },
+      {
+       "End": 214,
+       "Sequence": "ATTATATCAAATGGGGATTTGAGAGTAGATTAAAAC",
+       "Start": 179,
+       "Type": "DR"
+      },
+      {
+       "End": 244,
+       "Sequence": "AAGGATTTAGTATGAGTAAAGAGATAAAAA",
+       "Start": 215,
+       "Type": "Spacer"
+      },
+      {
+       "End": 280,
+       "Sequence": "ATTATATCAAATGGGGATTTGAGAGTAGATTAAAAC",
+       "Start": 245,
+       "Type": "DR"
+      },
+      {
+       "End": 309,
+       "Sequence": "TCCACTAAATAAAACTCAAAATAGAAGTC",
+       "Start": 281,
+       "Type": "Spacer"
+      },
+      {
+       "End": 345,
+       "Sequence": "ATTATATCAAATGGGGATTTGAGAGTAGATTAAAAC",
+       "Start": 310,
+       "Type": "DR"
+      },
+      {
+       "End": 375,
+       "Sequence": "AAGCACAAGAAATACAAAGTAAGATTCAAC",
+       "Start": 346,
+       "Type": "Spacer"
+      },
+      {
+       "End": 411,
+       "Sequence": "ATTATATCAAATGGGGATTTGAGAGTAGATTAAAAC",
+       "Start": 376,
+       "Type": "DR"
+      },
+      {
+       "End": 440,
+       "Sequence": "TACAAAGGAGCTTAAATGGATAAAGATAA",
+       "Start": 412,
+       "Type": "Spacer"
+      },
+      {
+       "End": 476,
+       "Sequence": "ATTATATCAAATGGGGATTTGAGAGTAGATTAAAAC",
+       "Start": 441,
+       "Type": "DR"
+      },
+      {
+       "End": 506,
+       "Sequence": "GAGTACAAAATGGAAGTAAAAGGAAAAAAA",
+       "Start": 477,
+       "Type": "Spacer"
+      },
+      {
+       "End": 542,
+       "Sequence": "ATTATATCAAATGGGGATTTGAGAGTAGATTAAAAC",
+       "Start": 507,
+       "Type": "DR"
+      },
+      {
+       "End": 572,
+       "Sequence": "ATAACAAAGATAGAAAAGAACACAATGAAA",
+       "Start": 543,
+       "Type": "Spacer"
+      },
+      {
+       "End": 608,
+       "Sequence": "ATTATATCAAATGGGGATTTGAGAGTAGATTAAAAC",
+       "Start": 573,
+       "Type": "DR"
+      },
+      {
+       "End": 637,
+       "Sequence": "TCTTTTATTTATACAAAAAAAGGTTGAAA",
+       "Start": 609,
+       "Type": "Spacer"
+      },
+      {
+       "End": 673,
+       "Sequence": "ATTATATCAAATGGGGATTTGAGAGTAGATTAAAAC",
+       "Start": 638,
+       "Type": "DR"
+      },
+      {
+       "End": 702,
+       "Sequence": "TTGTTATTACAGATGATGGTCAAGAGTTT",
+       "Start": 674,
+       "Type": "Spacer"
+      },
+      {
+       "End": 738,
+       "Sequence": "ATTATATCAAATGGGGATTTGAGAGTAGATTAAAAC",
+       "Start": 703,
+       "Type": "DR"
+      },
+      {
+       "End": 768,
+       "Sequence": "GGAAGTTGCTCTTTAGTTTATAGATGGAAA",
+       "Start": 739,
+       "Type": "Spacer"
+      },
+      {
+       "End": 804,
+       "Sequence": "ATTATATCAAATGGGGATTTGAGAGTAGATTAAAAC",
+       "Start": 769,
+       "Type": "DR"
+      },
+      {
+       "End": 834,
+       "Sequence": "AGGTTATCAATTACTTCGATATTTTGTTCC",
+       "Start": 805,
+       "Type": "Spacer"
+      },
+      {
+       "End": 870,
+       "Sequence": "ATTATATCAAATGGGGATTTGAGAGTAGATTAAAAG",
+       "Start": 835,
+       "Type": "DR"
+      },
+      {
+       "AT": 80,
+       "End": 970,
+       "Leader": 0,
+       "Sequence": "AAGAAAACCTCACTTTTGATAGAAAAGTGAGGCTAAAATTTTTACAAAAATATAAAACAACAATAAAATAGAAAAATTTGAATAAAAATCTAAATTCCTA",
+       "Start": 871,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 12,
+     "Start": 49
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_26178_length_1109_cov_8.91446",
+   "Length": 1109,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 72.3443223443223,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 100,
+     "Conservation_Spacers": 100,
+     "DR_Consensus": "AGAAAACGAACAGCCAAGAAAGAGAAAAACTCATAAAAAGCT",
+     "DR_Length": 42,
+     "End": 239,
+     "Evidence_Level": 1,
+     "Name": "NODE_26899_length_1092_cov_18.0477_1",
+     "Potential_Orientation": "-",
+     "Regions": [
+      {
+       "AT": 65,
+       "End": 114,
+       "Leader": 0,
+       "Sequence": "GTCTTTAGAAAATGCTTTAGAGTGGATTGAAGAAGATGAAGCTGTTGAAGTTACTCCTATTTCTATTCGTGTAAGAAAAAGAGAGCTTGATCCAACTGTT",
+       "Start": 15,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 156,
+       "Sequence": "AGAAAACGAACAGCCAAGAAAGAGAAAAACTCATAAAAAGCT",
+       "Start": 115,
+       "Type": "DR"
+      },
+      {
+       "End": 197,
+       "Sequence": "AATCTGTGAGCACGAGATTTGAAACTTTAGTTTCAATATCG",
+       "Start": 157,
+       "Type": "Spacer"
+      },
+      {
+       "End": 239,
+       "Sequence": "AGAAAACGAACAGCCAAGAAAGAGAAAAACTCATAAAAAGCT",
+       "Start": 198,
+       "Type": "DR"
+      },
+      {
+       "AT": 76,
+       "End": 339,
+       "Leader": 1,
+       "Sequence": "TAATTCTAGATTTTATAAGGAGAGAAGATTTTCTTCTCTCCTTTTTTTATATCTTGACACACAAATAAAAATCAAATATAATTTATCAATTAGGTAGGTG",
+       "Start": 240,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 1,
+     "Start": 115
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_26899_length_1092_cov_18.0477",
+   "Length": 1092,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 75.0687442713107,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_26935_length_1091_cov_3.06846",
+   "Length": 1091,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 56.2730627306273,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_27237_length_1084_cov_2.12853",
+   "Length": 1084,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 66.2276575729069,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_28219_length_1063_cov_2.43697",
+   "Length": 1063,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 79.4145420207743,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_28353_length_1059_cov_15.1212",
+   "Length": 1059,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 49.618320610687,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [
+    {
+     "CRISPRDirection": "ND",
+     "Conservation_DRs": 92.0148188343088,
+     "Conservation_Spacers": 32.3529411764706,
+     "DR_Consensus": "CACGGTGTTTCACCCAAAAGAAT",
+     "DR_Length": 23,
+     "End": 840,
+     "Evidence_Level": 1,
+     "Name": "NODE_28882_length_1048_cov_1.58523_1",
+     "Potential_Orientation": "-",
+     "Regions": [
+      {
+       "AT": 48,
+       "End": 711,
+       "Leader": 0,
+       "Sequence": "TTAGCTCAGAACGAGCTATCGCTGATGTAAAGGTCACGTTCTATATACGCGATGCGATGCGTTTGCTCGAATCCTTCGCTGGCCGGCCAGCGAAGTGACA",
+       "Start": 612,
+       "Type": "LeftFLANK"
+      },
+      {
+       "End": 734,
+       "Sequence": "TACGGTGTTTCACCCAAATGAAT",
+       "Start": 712,
+       "Type": "DR"
+      },
+      {
+       "End": 760,
+       "Sequence": "GGCCTTATGCTGAGCCTGTGGATAGG",
+       "Start": 735,
+       "Type": "Spacer"
+      },
+      {
+       "End": 783,
+       "Sequence": "CACGGTGTTTCACCCAAAAGAAT",
+       "Start": 761,
+       "Type": "DR"
+      },
+      {
+       "End": 817,
+       "Sequence": "CGTGCTTACACACGGTGTTTCACCCAAAACGCGA",
+       "Start": 784,
+       "Type": "Spacer"
+      },
+      {
+       "End": 840,
+       "Sequence": "CACGGTGTTTCACCCAAAAGAAT",
+       "Start": 818,
+       "Type": "DR"
+      },
+      {
+       "AT": 50,
+       "End": 940,
+       "Leader": 1,
+       "Sequence": "GCCCTTGCAGGCCTAGTGCTGCGCGGCTTACAGAAATCGTAACGCGCGCGCGCGTTTTATTAACTTTAAATCTTTAACAGGCCGTGCTGAAATCTGGAAA",
+       "Start": 841,
+       "Type": "RightFLANK"
+      }
+     ],
+     "Repeat_ID": "Unknown",
+     "Spacers": 2,
+     "Start": 712
+    }
+   ],
+   "Description": "Unknown",
+   "Id": "NODE_28882_length_1048_cov_1.58523",
+   "Length": 1048,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 39.3998063891578,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_29637_length_1033_cov_1.72627",
+   "Length": 1033,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 66.958211856171,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_29802_length_1029_cov_1.87029",
+   "Length": 1029,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 59.8039215686275,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_30262_length_1020_cov_1.95969",
+   "Length": 1020,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 65.9135559921415,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_30371_length_1018_cov_2.59147",
+   "Length": 1018,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 47.5766567754698,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_30777_length_1011_cov_2.15611",
+   "Length": 1011,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  },
+  {
+   "AT": 75.3246753246753,
+   "Cas": [],
+   "CrisprCasMinimalDistance": -1,
+   "Crisprs": [],
+   "Description": "Unknown",
+   "Id": "NODE_31290_length_1001_cov_2.27803",
+   "Length": 1001,
+   "RepeatGroups": [],
+   "Summary_CRISPR-Cas": ""
+  }
+ ],
+ "Version": "1.3.2"
+}
