@@ -177,7 +177,7 @@ def MetaFinalisation (misMax,out,vers,commandLine,inputDir,nameForm):
     ContigAnalyser.ResultSummary(out + "result.json",out,compRes)
     try :
         print(" > Cleaning the workspace.")
-        #shutil.move(resultPath + "rawCas.fna",out)
+        shutil.move(resultPath + "rawCas.fna",out)
         shutil.move(resultPath + "rawCRISPRs.fna",out)
         shutil.rmtree(resultPath, ignore_errors=True)
         shutil.rmtree(out + "MincedFiles/", ignore_errors=True) 
@@ -187,9 +187,9 @@ def MetaFinalisation (misMax,out,vers,commandLine,inputDir,nameForm):
     except :
         print("Error 006 : CRISPRCasMeta workspace cleaner failed !\nPossible issue : environment constraint (directories, files).\n")
     print(" > Creating a Cas clusters fasta file and its summary (.csv format).")
-    #ClustersCasSummary.Lexique(out, out + "result.json") 
-    #casTree = ClustersCasSummary.ClusterMaker(out + "rawCas.fna", out) 
-    #ClustersCasSummary.CsvSummary(out, "tsv", casTree) 
+    ClustersCasSummary.Lexique(out, out + "result.json") 
+    casTree = ClustersCasSummary.ClusterMaker(out + "rawCas.fna", out) 
+    ClustersCasSummary.CsvSummary(out, "tsv", casTree) 
     try :
         os.remove(out + "Metadata.tsv")
         shutil.move(out,inputDir) #move output directory in the input directory
