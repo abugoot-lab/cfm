@@ -229,7 +229,7 @@ parser.add_option("--forlib", action="store", type = "string", dest="libFormat",
 options, args = parser.parse_args()
 
 fastaFile = options.fastaFile
-out = cwd + options.out + "/"
+out = options.out + "/"
 mincedPath = options.mincedPath
 ccfPath = options.ccfPath
 misMax = options.misMax
